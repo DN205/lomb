@@ -1,0 +1,30 @@
+{% component species.list(pages) %}
+<div class="filter-row">
+    <label class="filter-label" for="species-filter">Keresés a fajok között</label>
+    <input
+        id="species-filter"
+        type="search"
+        placeholder="Név vagy latin név…"
+        autocomplete="off"
+        spellcheck="false"
+        aria-controls="species-list"
+    />
+</div>
+
+<p class="result-count" id="result-count" aria-live="polite">Összesen {{ pages | length }} fafaj</p>
+
+<ul id="species-list">
+    {% for page in pages %}
+    <li data-search="{{ page.title }} {{ page.extra.latin | default(value='') }}">
+        <a href="{{ page.permalink | safe }}">
+            <span class="species-name">{{ page.title }}</span>
+            {% if page.extra.latin %}
+            <span class="latin">{{ page.extra.latin }}</span>
+            {% endif %}
+        </a>
+    </li>
+    {% endfor %}
+</ul>
+
+<p class="empty-state" id="no-results" hidden>Nincs a keresésnek megfelelő fafaj.</p>
+{% endcomponent species.list %}

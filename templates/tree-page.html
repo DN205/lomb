@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} · Lomb{% endblock %}
+{% block description %}{{ page.description | default(value="Lomb – magyarországi fafajok adatbázisa") }}{% endblock %}
+
+{% block content %}
+<article class="species-sheet">
+    <aside class="fact-box">
+        <h2 class="fact-box-title">Adatlap</h2>
+        <dl>
+            {% if page.extra.latin %}
+            <dt>Latin név</dt>
+            <dd class="latin">{{ page.extra.latin }}</dd>
+            {% endif %}
+            {% if page.extra.family %}
+            <dt>Család</dt>
+            <dd>{{ page.extra.family }}</dd>
+            {% endif %}
+            {% if page.extra.height %}
+            <dt>Magasság</dt>
+            <dd>{{ page.extra.height }}</dd>
+            {% endif %}
+            {% if page.extra.lifespan %}
+            <dt>Életkor</dt>
+            <dd>{{ page.extra.lifespan }}</dd>
+            {% endif %}
+            {% if page.extra.distribution %}
+            <dt>Elterjedés</dt>
+            <dd>{{ page.extra.distribution }}</dd>
+            {% endif %}
+        </dl>
+        <a class="back-link" href="{{ get_url(path='@/species/_index.md') }}">← Vissza a fafajokhoz</a>
+    </aside>
+
+    <div class="sheet-body">
+        <header class="page-header">
+            {% if page.extra.latin %}
+            <p class="eyebrow">{{ page.extra.latin }}</p>
+            {% endif %}
+            <h1>{{ page.title }}</h1>
+            {% if page.description %}
+            <p class="lead">{{ page.description }}</p>
+            {% endif %}
+        </header>
+
+        {{ page.content | safe }}
+    </div>
+</article>
+{% endblock content %}

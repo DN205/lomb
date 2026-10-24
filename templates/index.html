@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Lomb – magyarországi fafajok adatbázisa{% endblock %}
+
+{% block content %}
+{% set speciesSection = get_section(path="species/_index.md") %}
+
+<section class="hero">
+    <p class="eyebrow">Magyarországi fafajok adatbázisa</p>
+    <h1>Lomb</h1>
+    <p class="lead">
+        Ismerd meg a hazai erdők, parkok és fasorok fáit: megjelenésüket, élőhelyüket és
+        természeti jelentőségüket.
+    </p>
+</section>
+
+{% if speciesSection.pages %}
+{{<species.list pages={speciesSection.pages} />}}
+{% else %}
+<p class="empty-state">Hamarosan érkeznek az első fafajok.</p>
+{% endif %}
+{% endblock content %}
