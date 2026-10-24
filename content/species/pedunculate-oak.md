@@ -5,10 +5,34 @@ date = 2026-10-24
 
 [extra]
 latin = "Quercus robur"
+english = "Pedunculate oak"
 family = "Bükkfafélék (Fagaceae)"
 height = "25–40 m"
 lifespan = "400–600 év"
 distribution = "Európa sík- és dombvidéke"
+
+[extra.linnaean]
+kingdom = "Növények (Plantae)"
+division = "Zárvatermők (Magnoliophyta)"
+class = "Kétszikűek (Magnoliopsida)"
+order = "Bükkfavirágúak (Fagales)"
+family = "Bükkfafélék (Fagaceae)"
+genus = "Tölgy (Quercus)"
+species = "Kocsányos tölgy (Quercus robur)"
+
+[extra.cladistic]
+clades = [
+    "Angiospermae",
+    "Eudicotyledoneae",
+    "Superrosidae",
+    "Rosidae",
+    "Fabidae",
+    "Fagales",
+    "Fagaceae",
+    "Quercoideae",
+    "Quercus",
+    "Quercus robur",
+]
 +++
 
 A kocsányos tölgy a Kárpát-medence legtekintélyesebb őshonos fái közé tartozik. Neve onnan ered, hogy makktermése hosszú kocsányon függ, ellentétben a kocsánytalan tölggyel, amelynek makkja szinte ül a hajtáson.

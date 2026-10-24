@@ -12,6 +12,10 @@
             <dt>Latin név</dt>
             <dd class="latin">{{ page.extra.latin }}</dd>
             {% endif %}
+            {% if page.extra.english %}
+            <dt>Angol név</dt>
+            <dd>{{ page.extra.english }}</dd>
+            {% endif %}
             {% if page.extra.family %}
             <dt>Család</dt>
             <dd>{{ page.extra.family }}</dd>
@@ -29,7 +33,61 @@
             <dd>{{ page.extra.distribution }}</dd>
             {% endif %}
         </dl>
-        <a class="back-link" href="{{ get_url(path='@/species/_index.md') }}">← Vissza a fafajokhoz</a>
+
+        {% if page.extra.linnaean is defined or page.extra.cladistic is defined %}
+        <section class="taxonomy" aria-labelledby="taxonomy-title">
+            <h3 class="taxonomy-title" id="taxonomy-title">Rendszertan</h3>
+
+            {% if page.extra.linnaean is defined %}
+            <div class="taxonomy-block">
+                <h4>Linnéi rendszertan</h4>
+                <dl>
+                    {% if page.extra.linnaean.kingdom %}
+                    <dt>Ország</dt>
+                    <dd>{{ page.extra.linnaean.kingdom }}</dd>
+                    {% endif %}
+                    {% if page.extra.linnaean.division %}
+                    <dt>Törzs</dt>
+                    <dd>{{ page.extra.linnaean.division }}</dd>
+                    {% endif %}
+                    {% if page.extra.linnaean.class %}
+                    <dt>Osztály</dt>
+                    <dd>{{ page.extra.linnaean.class }}</dd>
+                    {% endif %}
+                    {% if page.extra.linnaean.order %}
+                    <dt>Rend</dt>
+                    <dd>{{ page.extra.linnaean.order }}</dd>
+                    {% endif %}
+                    {% if page.extra.linnaean.family %}
+                    <dt>Család</dt>
+                    <dd>{{ page.extra.linnaean.family }}</dd>
+                    {% endif %}
+                    {% if page.extra.linnaean.genus %}
+                    <dt>Nemzetség</dt>
+                    <dd>{{ page.extra.linnaean.genus }}</dd>
+                    {% endif %}
+                    {% if page.extra.linnaean.species %}
+                    <dt>Faj</dt>
+                    <dd>{{ page.extra.linnaean.species }}</dd>
+                    {% endif %}
+                </dl>
+            </div>
+            {% endif %}
+
+            {% if page.extra.cladistic is defined and page.extra.cladistic.clades is defined %}
+            <div class="taxonomy-block">
+                <h4>Kladisztikus rendszertan</h4>
+                <ol class="clade-list" aria-label="Kládok a zárvatermőktől a fajig">
+                    {% for clade in page.extra.cladistic.clades %}
+                    <li class="clade">{{ clade }}</li>
+                    {% endfor %}
+                </ol>
+            </div>
+            {% endif %}
+        </section>
+        {% endif %}
+
+        <a class="back-link" href="{{ get_url(path='/') }}">← Vissza a főoldalra</a>
     </aside>
 
     <div class="sheet-body">

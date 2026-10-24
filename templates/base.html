@@ -13,18 +13,20 @@
     <body>
         <a class="skip-link" href="#main-content">Ugrás a tartalomra</a>
 
-        <header class="site-header">
-            <div class="site-header-inner">
-                <a class="brand" href="{{ get_url(path='/') }}">Lomb</a>
-                <nav aria-label="Fő navigáció">
-                    <a href="{{ get_url(path='@/species/_index.md') }}">Fafajok</a>
-                </nav>
-            </div>
-        </header>
-
         <main id="main-content">
             {% block content %}{% endblock content %}
         </main>
+
+        {% if current_path != "/" %}
+        <a class="home-button" href="{{ get_url(path='/') }}" aria-label="Vissza a főoldalra">
+            <svg class="home-button-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M4 11.5 12 4l8 7.5" />
+                <path d="M6.5 10.5V20h11v-9.5" />
+                <path d="M10 20v-5h4v5" />
+            </svg>
+            <span class="home-button-label">Főoldal</span>
+        </a>
+        {% endif %}
 
         <footer class="site-footer">
             <div class="site-footer-inner">

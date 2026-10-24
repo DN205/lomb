@@ -5,10 +5,34 @@ date = 2026-10-24
 
 [extra]
 latin = "Aesculus × carnea"
+english = "Red horse chestnut"
 family = "Szappanfafélék (Sapindaceae)"
 height = "15–20 m"
 lifespan = "100–200 év"
 distribution = "Kertészeti hibrid; csak telepítve fordul elő"
+
+[extra.linnaean]
+kingdom = "Növények (Plantae)"
+division = "Zárvatermők (Magnoliophyta)"
+class = "Kétszikűek (Magnoliopsida)"
+order = "Szappanfavirágúak (Sapindales)"
+family = "Szappanfafélék (Sapindaceae)"
+genus = "Vadgesztenye (Aesculus)"
+species = "Húsvörös vadgesztenye (Aesculus × carnea)"
+
+[extra.cladistic]
+clades = [
+    "Angiospermae",
+    "Eudicotyledoneae",
+    "Superrosidae",
+    "Rosidae",
+    "Malvidae",
+    "Sapindales",
+    "Sapindaceae",
+    "Hippocastanoideae",
+    "Aesculus",
+    "Aesculus × carnea",
+]
 +++
 
 A húsvörös vadgesztenye nem vadon élő faj, hanem a közönséges vadgesztenye és az észak-amerikai piros vadgesztenye (Aesculus pavia) termesztett hibridje. Parkokban és utcákon a fehér virágú vadgesztenye vörös virágú alternatívájaként ültetik.

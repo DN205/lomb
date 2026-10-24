@@ -5,10 +5,34 @@ date = 2026-10-24
 
 [extra]
 latin = "Tilia cordata"
+english = "Small-leaved lime"
 family = "Mályvafélék (Malvaceae)"
 height = "15–25 m"
 lifespan = "300–500 év"
 distribution = "Európa mérsékelt öve; Magyarországon őshonos"
+
+[extra.linnaean]
+kingdom = "Növények (Plantae)"
+division = "Zárvatermők (Magnoliophyta)"
+class = "Kétszikűek (Magnoliopsida)"
+order = "Mályvavirágúak (Malvales)"
+family = "Mályvafélék (Malvaceae)"
+genus = "Hárs (Tilia)"
+species = "Kislevelű hárs (Tilia cordata)"
+
+[extra.cladistic]
+clades = [
+    "Angiospermae",
+    "Eudicotyledoneae",
+    "Superrosidae",
+    "Rosidae",
+    "Malvidae",
+    "Malvales",
+    "Malvaceae",
+    "Tilioideae",
+    "Tilia",
+    "Tilia cordata",
+]
 +++
 
 A kislevelű hárs a Kárpát-medence egyik leggyakoribb őshonos lombos fája. Karcsú, szabályos koronája és illatos nyári virágzása miatt parkokban, utcákon és erdőkben egyaránt kedvelt.

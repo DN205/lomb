@@ -5,10 +5,34 @@ date = 2026-10-24
 
 [extra]
 latin = "Tilia platyphyllos"
+english = "Large-leaved lime"
 family = "Mályvafélék (Malvaceae)"
 height = "20–35 m"
 lifespan = "500–1000 év"
 distribution = "Európa domb- és hegyvidéke; Magyarországon őshonos"
+
+[extra.linnaean]
+kingdom = "Növények (Plantae)"
+division = "Zárvatermők (Magnoliophyta)"
+class = "Kétszikűek (Magnoliopsida)"
+order = "Mályvavirágúak (Malvales)"
+family = "Mályvafélék (Malvaceae)"
+genus = "Hárs (Tilia)"
+species = "Nagylevelű hárs (Tilia platyphyllos)"
+
+[extra.cladistic]
+clades = [
+    "Angiospermae",
+    "Eudicotyledoneae",
+    "Superrosidae",
+    "Rosidae",
+    "Malvidae",
+    "Malvales",
+    "Malvaceae",
+    "Tilioideae",
+    "Tilia",
+    "Tilia platyphyllos",
+]
 +++
 
 A nagylevelű hárs a kislevelű hárs közeli rokona, de annál testesebb, nagyobb levelű és korábban virágzó fafaj. Öreg példányai gyakran üreges törzsűek, és számos madárnak, rovar fajnak adnak otthont.

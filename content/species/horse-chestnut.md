@@ -5,10 +5,34 @@ date = 2026-10-24
 
 [extra]
 latin = "Aesculus hippocastanum"
+english = "Horse chestnut"
 family = "Szappanfafélék (Sapindaceae)"
 height = "15–25 m"
 lifespan = "150–250 év"
 distribution = "A Balkán-félsziget; Európában széles körben telepített"
+
+[extra.linnaean]
+kingdom = "Növények (Plantae)"
+division = "Zárvatermők (Magnoliophyta)"
+class = "Kétszikűek (Magnoliopsida)"
+order = "Szappanfavirágúak (Sapindales)"
+family = "Szappanfafélék (Sapindaceae)"
+genus = "Vadgesztenye (Aesculus)"
+species = "Közönséges vadgesztenye (Aesculus hippocastanum)"
+
+[extra.cladistic]
+clades = [
+    "Angiospermae",
+    "Eudicotyledoneae",
+    "Superrosidae",
+    "Rosidae",
+    "Malvidae",
+    "Sapindales",
+    "Sapindaceae",
+    "Hippocastanoideae",
+    "Aesculus",
+    "Aesculus hippocastanum",
+]
 +++
 
 A közönséges vadgesztenye a Balkán hegyvidéki erdeiből származik, de ma már egész Európában megtalálható parkokban, fasorokban és kertvárosi utcákon. Tavaszi virágzása és őszi termése miatt könnyen felismerhető.
