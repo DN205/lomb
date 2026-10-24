@@ -6,6 +6,7 @@ date = 2026-10-24
 [extra]
 latin = "Tilia platyphyllos"
 english = "Large-leaved lime"
+verified_by = "Human"
 family = "Mályvafélék (Malvaceae)"
 height = "20–35 m"
 lifespan = "500–1000 év"

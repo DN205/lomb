@@ -6,6 +6,7 @@ date = 2026-10-24
 [extra]
 latin = "Quercus robur"
 english = "Pedunculate oak"
+verified_by = "Human"
 family = "Bükkfafélék (Fagaceae)"
 height = "25–40 m"
 lifespan = "400–600 év"

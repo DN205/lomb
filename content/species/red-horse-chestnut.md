@@ -6,6 +6,7 @@ date = 2026-10-24
 [extra]
 latin = "Aesculus × carnea"
 english = "Red horse chestnut"
+verified_by = "Human"
 family = "Szappanfafélék (Sapindaceae)"
 height = "15–20 m"
 lifespan = "100–200 év"

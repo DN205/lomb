@@ -103,5 +103,19 @@
 
         {{ page.content | safe }}
     </div>
+
+    <aside class="fact-box status-box" aria-label="Az adatlap állapota">
+        <h2 class="fact-box-title">Állapot</h2>
+        <dl>
+            <dt>Utolsó frissítés</dt>
+            <dd><time datetime="{{ page.date }}">{{ page.date | date(format="%Y. %m. %d.") }}</time></dd>
+        </dl>
+        <p class="verified">
+            <svg class="verified-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="m5 12.5 4.5 4.5L19 7.5" />
+            </svg>
+            <span><span class="verified-label">Verified by:</span> {{ page.extra.verified_by | default(value="AI") }}</span>
+        </p>
+    </aside>
 </article>
 {% endblock content %}

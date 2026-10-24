@@ -6,6 +6,7 @@ date = 2026-10-24
 [extra]
 latin = "Koelreuteria paniculata"
 english = "Goldenrain tree"
+verified_by = "Human"
 family = "Szappanfafélék (Sapindaceae)"
 height = "8–15 m"
 lifespan = "60–150 év"

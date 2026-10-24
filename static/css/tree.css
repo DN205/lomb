@@ -198,8 +198,8 @@ h1 {
 
 .species-sheet {
     display: grid;
-    grid-template-columns: minmax(12rem, 16rem) 1fr;
-    gap: 3rem;
+    grid-template-columns: minmax(11rem, 15rem) minmax(0, 1fr) minmax(9rem, 12rem);
+    gap: 2.5rem;
 }
 
 .species-sheet .sheet-body {
@@ -261,6 +261,40 @@ h1 {
 .back-link:hover,
 .back-link:focus-visible {
     color: var(--oak);
+}
+
+.status-box {
+    font-size: 0.9rem;
+}
+
+.status-box dl {
+    margin: 0;
+}
+
+.status-box .verified {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin: 0.9rem 0 0;
+    padding-top: 0.75rem;
+    border-top: 1px dashed color-mix(in srgb, var(--bark) 35%, transparent);
+    color: var(--moss);
+    line-height: 1.35;
+}
+
+.verified-label {
+    color: var(--bark);
+}
+
+.verified-icon {
+    width: 0.95em;
+    height: 0.95em;
+    flex: none;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2.2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
 }
 
 .home-button {
@@ -404,6 +438,10 @@ h1 {
         position: static;
         max-height: none;
         overflow: visible;
+    }
+
+    .species-sheet .status-box {
+        order: 3;
     }
 
     #species-list a {

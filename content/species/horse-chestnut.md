@@ -6,6 +6,7 @@ date = 2026-10-24
 [extra]
 latin = "Aesculus hippocastanum"
 english = "Horse chestnut"
+verified_by = "Human"
 family = "Szappanfafélék (Sapindaceae)"
 height = "15–25 m"
 lifespan = "150–250 év"

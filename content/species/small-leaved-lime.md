@@ -6,6 +6,7 @@ date = 2026-10-24
 [extra]
 latin = "Tilia cordata"
 english = "Small-leaved lime"
+verified_by = "Human"
 family = "Mályvafélék (Malvaceae)"
 height = "15–25 m"
 lifespan = "300–500 év"
