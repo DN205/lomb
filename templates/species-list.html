@@ -1,21 +1,53 @@
 {% component species.list(pages) %}
 <div class="filter-row">
     <label class="filter-label" for="species-filter">Keresés a fajok között</label>
-    <input
-        id="species-filter"
-        type="search"
-        placeholder="Magyar, angol vagy latin név…"
-        autocomplete="off"
-        spellcheck="false"
-        aria-controls="species-list"
-    />
+    <div class="filter-search">
+        <input
+            id="species-filter"
+            type="search"
+            placeholder="Név, származás vagy rendszertani kategória…"
+            autocomplete="off"
+            spellcheck="false"
+            aria-controls="species-list"
+        />
+        <div class="filter-help">
+            <button
+                class="filter-help-button"
+                type="button"
+                aria-label="Keresési útmutató"
+                aria-describedby="search-guide"
+            >i</button>
+            <div class="filter-help-panel" id="search-guide" role="tooltip">
+                <p class="filter-help-title">Keresési útmutató</p>
+                <ul>
+                    <li>Kereshetsz magyar, angol vagy latin névvel, illetve névrészlettel.</li>
+                    <li>Beírhatod a származást vagy az elterjedést, például: Európa.</li>
+                    <li>Szűrhetsz családra és rendszertani besorolásra is, például: Fagaceae, Rosidae.</li>
+                    <li>Az ékezetek és a kis- és nagybetűk nem számítanak.</li>
+                    <li>Több szót is beírhatsz: mindegyiknek szerepelnie kell.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="filter-limits" role="group" aria-label="Megjelenített találatok száma">
+        <span class="filter-limits-label">Megjelenítés</span>
+        <button type="button" data-species-limit="10" aria-pressed="false">10</button>
+        <button type="button" data-species-limit="50" aria-pressed="false">50</button>
+        <button type="button" data-species-limit="100" aria-pressed="false">100</button>
+        <button type="button" data-species-limit="all" aria-pressed="true">Mind</button>
+    </div>
 </div>
 
 <p class="result-count" id="result-count" aria-live="polite">Összesen {{ pages | length }} fafaj</p>
 
 <ul id="species-list">
     {% for page in pages %}
-    <li data-search="{{ page.title }} {{ page.extra.english | default(value='') }} {{ page.extra.latin | default(value='') }}">
+    <li
+        data-search="{{ page.title }} {{ page.extra.english | default(value='') }} {{ page.extra.latin | default(value='') }} {{ page.extra.origin | default(value='') }} {{ page.extra.family | default(value='') }}
+            {%- if page.extra.distribution is string %} {{ page.extra.distribution }}{% elif page.extra.distribution is defined %} {{ page.extra.distribution.native | default(value=[]) | join(sep=' ') }} {{ page.extra.distribution.other | default(value=[]) | join(sep=' ') }}{% endif %}
+            {%- if page.extra.linnaean is defined %} {{ page.extra.linnaean.kingdom | default(value='') }} {{ page.extra.linnaean.division | default(value='') }} {{ page.extra.linnaean.class | default(value='') }} {{ page.extra.linnaean.order | default(value='') }} {{ page.extra.linnaean.family | default(value='') }} {{ page.extra.linnaean.genus | default(value='') }} {{ page.extra.linnaean.species | default(value='') }}{% endif %}
+            {%- if page.extra.cladistic is defined %} {{ page.extra.cladistic.clades | default(value=[]) | join(sep=' ') }}{% endif %}"
+    >
         <a href="{{ page.permalink | safe }}">
             <span class="species-primary">
                 <span class="species-name">{{ page.title }}</span>

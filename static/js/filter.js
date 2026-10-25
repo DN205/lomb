@@ -9,6 +9,48 @@
     var counter = document.getElementById("result-count");
     var emptyState = document.getElementById("no-results");
     var initialText = counter ? counter.textContent : "";
+    var limitButtons = Array.prototype.slice.call(
+        document.querySelectorAll("[data-species-limit]")
+    );
+    var limitKey = "lomb-species-limit";
+    var defaultLimit = "all";
+    var limit = readLimit();
+
+    function readLimit() {
+        var stored;
+        try {
+            stored = window.localStorage.getItem(limitKey);
+        } catch (error) {
+            stored = null;
+        }
+        var known = limitButtons.some(function (button) {
+            return button.getAttribute("data-species-limit") === stored;
+        });
+        return known ? stored : defaultLimit;
+    }
+
+    function applyLimit() {
+        limitButtons.forEach(function (button) {
+            button.setAttribute(
+                "aria-pressed",
+                button.getAttribute("data-species-limit") === limit ? "true" : "false"
+            );
+        });
+    }
+
+    limitButtons.forEach(function (button) {
+        button.addEventListener("click", function () {
+            limit = button.getAttribute("data-species-limit");
+            applyLimit();
+            applyFilter();
+            try {
+                window.localStorage.setItem(limitKey, limit);
+            } catch (error) {
+                // Storage may be unavailable; the choice still applies to this page.
+            }
+        });
+    });
+    applyLimit();
 
     function normalize(text) {
         return text
@@ -23,20 +65,31 @@
 
     function applyFilter() {
         var query = normalize(input.value.trim());
-        var visible = 0;
+        var tokens = query ? query.split(/\s+/).filter(Boolean) : [];
+        var max = limit === defaultLimit ? items.length : parseInt(limit, 10);
+        var matches = 0;
+        var shown = 0;
 
         items.forEach(function (item, index) {
-            var matches = !query || searchTexts[index].indexOf(query) !== -1;
-            item.hidden = !matches;
-            if (matches) visible += 1;
+            var isMatch = tokens.every(function (token) {
+                return searchTexts[index].indexOf(token) !== -1;
+            });
+            if (isMatch) matches += 1;
+            var visible = isMatch && matches <= max;
+            item.hidden = !visible;
+            if (visible) shown += 1;
         });
 
         if (counter) {
-            counter.textContent = query ? visible + " találat" : initialText;
+            var text = query ? matches + " találat" : initialText;
+            if (shown < matches) {
+                text += " · " + shown + " megjelenítve";
+            }
+            counter.textContent = text;
         }
 
         if (emptyState) {
-            emptyState.hidden = !(query && visible === 0);
+            emptyState.hidden = !(query && matches === 0);
         }
 
         var url = new URL(window.location.href);
@@ -52,9 +105,7 @@
     if (initialQuery && !input.value) {
         input.value = initialQuery;
     }
-    if (input.value.trim()) {
-        applyFilter();
-    }
+    applyFilter();
 
     input.addEventListener("input", applyFilter);
     input.addEventListener("search", applyFilter);
