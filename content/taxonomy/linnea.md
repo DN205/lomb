@@ -1,6 +1,10 @@
 +++
 title = "Linnéi rendszertan"
 description = "A Linnéi rendszertan a növényeket egymásba ágyazott rangokba sorolja, és a fajok kétnevű, úgynevezett binomiális elnevezését használja."
+date = 2026-10-25
+
+[extra]
+verified_by = "AI"
 +++
 
 ## Mi az a Linnéi rendszertan?

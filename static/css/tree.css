@@ -462,9 +462,18 @@ h1 {
     stroke-linejoin: round;
 }
 
+.reference-sheet {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(9rem, 12rem);
+    gap: 2.5rem;
+    max-width: 72rem;
+    margin: 0 auto;
+    align-items: start;
+}
+
 .reference-page {
     max-width: 52rem;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .reference-page .page-header {
@@ -702,6 +711,17 @@ h1 {
     }
 
     .home-search #species-list {
+        overflow: visible;
+    }
+
+    .reference-sheet {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .reference-sheet .status-box {
+        position: static;
+        max-height: none;
         overflow: visible;
     }
 

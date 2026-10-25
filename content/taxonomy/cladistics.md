@@ -1,6 +1,10 @@
 +++
 title = "Kladisztikus rendszertan"
 description = "A kladisztikus rendszertan a közös ősökön alapuló kládokba rendezi a növényeket, ahogy az APG IV besorolás is teszi."
+date = 2026-10-25
+
+[extra]
+verified_by = "AI"
 +++
 
 ## Mi a kladisztika?

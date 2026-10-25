@@ -4,6 +4,10 @@ description = "Hogyan rendezzük csoportokba a növényeket? A Linnéi rendszert
 sort_by = "title"
 template = "taxonomy.html"
 page_template = "taxonomy-page.html"
+
+[extra]
+updated = "2026-10-25"
+verified_by = "AI"
 +++
 
 A rendszertan segít eligazodni a növények sokféleségében: rokonsági csoportokba rendezi a fajokat, és egységes neveket ad nekik. Ez az adatbázis két nézőpontból mutatja be ugyanazt a rendszert.
