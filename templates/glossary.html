@@ -4,7 +4,27 @@
 {% block description %}{{ page.description | default(value="Lomb – magyarországi fafajok adatbázisa") }}{% endblock %}
 
 {% block content %}
-<div class="reference-sheet">
+<div class="reference-sheet glossary-sheet">
+    {% if page.toc %}
+    <aside class="fact-box glossary-nav" aria-label="Szócikkek">
+        <h2 class="fact-box-title">Szócikkek</h2>
+        <nav class="glossary-index" aria-label="Szócikkek">
+            {% for topic in page.toc %}
+            {% if topic.children %}
+            <div class="glossary-topic">
+                <p class="glossary-topic-title">{{ topic.title }}</p>
+                <ul>
+                    {% for entry in topic.children %}
+                    <li><a href="#{{ entry.id }}">{{ entry.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </nav>
+    </aside>
+    {% endif %}
+
     <article class="reference-page">
         <header class="page-header">
             <p class="eyebrow">Fogalomtár</p>
@@ -15,17 +35,6 @@
         </header>
 
         <div class="reference-body">
-            {% if page.toc %}
-            <nav class="glossary-index" aria-label="Szócikkek">
-                <p class="reference-nav-label">Szócikkek</p>
-                <p>
-                    {% for entry in page.toc %}
-                    <a href="#{{ entry.id }}">{{ entry.title }}</a>{% if not loop.last %} · {% endif %}
-                    {% endfor %}
-                </p>
-            </nav>
-            {% endif %}
-
             {{ page.content | safe }}
         </div>
 
