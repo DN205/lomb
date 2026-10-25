@@ -16,7 +16,11 @@
         </p>
     </section>
 
-    <div class="home-menu" aria-hidden="true"></div>
+    <nav class="home-menu" aria-label="Menü">
+        <ul>
+            <li><a href="{{ get_url(path='@/taxonomy/_index.md') }}">Rendszertan</a></li>
+        </ul>
+    </nav>
 
     <section class="home-search" aria-label="Keresés a fafajok között">
         {% if speciesSection.pages %}

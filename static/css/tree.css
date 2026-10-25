@@ -146,7 +146,32 @@ h1 {
 
 .home-menu {
     grid-area: menu;
+    padding: clamp(1.75rem, 4vw, 3rem);
     border-bottom: 2px solid var(--ink);
+}
+
+.home-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.home-menu li + li {
+    margin-top: 0.5rem;
+}
+
+.home-menu a {
+    font-family: var(--font-heading);
+    font-size: clamp(1.25rem, 2.2vw, 1.75rem);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.home-menu a:hover,
+.home-menu a:focus-visible {
+    color: var(--oak);
+    border-bottom-color: currentColor;
 }
 
 .home-search {
@@ -423,6 +448,127 @@ h1 {
     stroke-linejoin: round;
 }
 
+.reference-page {
+    max-width: 52rem;
+    margin: 0 auto;
+}
+
+.reference-page .page-header {
+    margin-bottom: 2rem;
+}
+
+.reference-page h1 {
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+}
+
+.eyebrow-link {
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+.eyebrow-link:hover,
+.eyebrow-link:focus-visible {
+    color: var(--oak);
+    border-bottom-color: currentColor;
+}
+
+.reference-body {
+    max-width: 42rem;
+}
+
+.reference-body h2 {
+    margin: 2.5rem 0 0.75rem;
+    font-family: var(--font-heading);
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+
+.reference-body h2:first-child {
+    margin-top: 0;
+}
+
+.reference-body p,
+.reference-body ul {
+    max-width: 42rem;
+}
+
+.reference-body ul {
+    padding-left: 1.2rem;
+}
+
+.reference-body li {
+    margin: 0.25rem 0;
+}
+
+.reference-body a {
+    color: var(--oak);
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+}
+
+.topic-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1rem;
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px dashed color-mix(in srgb, var(--bark) 45%, transparent);
+}
+
+.topic-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    padding: 1.25rem;
+    border: 1px dashed var(--bark);
+    text-decoration: none;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.topic-card:hover,
+.topic-card:focus-visible {
+    color: var(--oak);
+    border-color: var(--oak);
+}
+
+.topic-title {
+    font-family: var(--font-heading);
+    font-size: 1.35rem;
+}
+
+.topic-description {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--moss);
+}
+
+.reference-nav {
+    margin-top: 2.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px dashed color-mix(in srgb, var(--bark) 45%, transparent);
+    font-size: 0.95rem;
+}
+
+.reference-nav-label {
+    margin: 1rem 0 0.25rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--bark);
+}
+
+.reference-topic-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.reference-topic-links a {
+    color: var(--oak);
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+}
+
 .sheet-body h2 {
     margin: 2.5rem 0 0.75rem;
     font-family: var(--font-heading);
@@ -518,9 +664,10 @@ h1 {
     .home-shell {
         height: auto;
         grid-template-columns: 1fr;
-        grid-template-rows: auto auto;
+        grid-template-rows: auto auto auto;
         grid-template-areas:
             "intro"
+            "menu"
             "search";
         border-radius: 1.25rem;
     }
@@ -532,7 +679,7 @@ h1 {
     }
 
     .home-menu {
-        display: none;
+        padding: 1.25rem 1.75rem;
     }
 
     .home-search {

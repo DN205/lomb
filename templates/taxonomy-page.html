@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} · Lomb{% endblock %}
+{% block description %}{{ page.description | default(value="Lomb – magyarországi fafajok adatbázisa") }}{% endblock %}
+
+{% block content %}
+{% set taxonomySection = get_section(path="taxonomy/_index.md") %}
+
+<article class="reference-page">
+    <header class="page-header">
+        <p class="eyebrow"><a class="eyebrow-link" href="{{ taxonomySection.permalink | safe }}">Rendszertan</a></p>
+        <h1>{{ page.title }}</h1>
+        {% if page.description %}
+        <p class="lead">{{ page.description }}</p>
+        {% endif %}
+    </header>
+
+    <div class="reference-body">
+        {{ page.content | safe }}
+    </div>
+
+    <nav class="reference-nav" aria-label="Rendszertani témák">
+        <a class="back-link" href="{{ taxonomySection.permalink | safe }}">← Vissza a rendszertanhoz</a>
+        <p class="reference-nav-label">További témák</p>
+        <ul class="reference-topic-links">
+            {% for topic in taxonomySection.pages %}
+            {% if topic.permalink != page.permalink %}
+            <li><a href="{{ topic.permalink | safe }}">{{ topic.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </nav>
+</article>
+{% endblock content %}

@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}{{ section.title }} · Lomb{% endblock %}
+{% block description %}{{ section.description | default(value="Lomb – magyarországi fafajok adatbázisa") }}{% endblock %}
+
+{% block content %}
+<article class="reference-page">
+    <header class="page-header">
+        <p class="eyebrow">Rendszertan</p>
+        <h1>{{ section.title }}</h1>
+        {% if section.description %}
+        <p class="lead">{{ section.description }}</p>
+        {% endif %}
+    </header>
+
+    <div class="reference-body">
+        {{ section.content | safe }}
+    </div>
+
+    {% if section.pages %}
+    <nav class="topic-list" aria-label="Rendszertani témák">
+        {% for topic in section.pages %}
+        <a class="topic-card" href="{{ topic.permalink | safe }}">
+            <span class="topic-title">{{ topic.title }}</span>
+            {% if topic.description %}
+            <span class="topic-description">{{ topic.description }}</span>
+            {% endif %}
+        </a>
+        {% endfor %}
+    </nav>
+    {% endif %}
+</article>
+{% endblock content %}
