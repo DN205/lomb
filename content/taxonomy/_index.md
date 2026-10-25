@@ -1,7 +1,7 @@
 +++
 title = "Rendszertan"
 description = "Hogyan rendezzük csoportokba a növényeket? A Linnéi rendszertan és a kladisztika két különböző választ ad erre a kérdésre."
-sort_by = "title"
+sort_by = "weight"
 template = "taxonomy.html"
 page_template = "taxonomy-page.html"
 
@@ -15,3 +15,5 @@ A rendszertan segít eligazodni a növények sokféleségében: rokonsági csopo
 A Linnéi rendszertan a hagyományos, rangokra épülő besorolást mutatja, amelynek a fajok kétnevű tudományos neve is köszönhető. A kladisztikus rendszertan ezzel szemben a közös ősökön alapuló kládokba rendezi a növényeket, ahogy az APG IV besorolás is teszi.
 
 Mindkét szemlélet ugyanazokat a fajokat írja le, csak más hangsúlyt ad a rokonságnak és a rangoknak.
+
+A hét Linnéi rangot külön oldalakon is bemutatjuk a kocsányos tölgy példáján, az országtól a fajig.

@@ -2,6 +2,7 @@
 title = "Linnéi rendszertan"
 description = "A Linnéi rendszertan a növényeket egymásba ágyazott rangokba sorolja, és a fajok kétnevű, úgynevezett binomiális elnevezését használja."
 date = 2026-10-25
+weight = 10
 
 [extra]
 verified_by = "AI"
@@ -13,13 +14,13 @@ A Linnéi rendszertan Carl von Linné 18. századi munkásságán alapuló, rang
 
 A legismertebb rangok a növényeknél: ország, törzs, osztály, rend, család, nemzetség és faj. A kocsányos tölgy esetében ez a sor így néz ki:
 
-- **Ország** — Növények (Plantae)
-- **Törzs** — Zárvatermők (Magnoliophyta)
-- **Osztály** — Kétszikűek (Magnoliopsida)
-- **Rend** — Bükkfavirágúak (Fagales)
-- **Család** — Bükkfafélék (Fagaceae)
-- **Nemzetség** — Tölgy (Quercus)
-- **Faj** — Kocsányos tölgy (Quercus robur)
+- **[Ország](@/taxonomy/kingdom.md)** — Növények (Plantae)
+- **[Törzs](@/taxonomy/phylum.md)** — Zárvatermők (Magnoliophyta)
+- **[Osztály](@/taxonomy/class.md)** — Kétszikűek (Magnoliopsida)
+- **[Rend](@/taxonomy/order.md)** — Bükkfavirágúak (Fagales)
+- **[Család](@/taxonomy/family.md)** — Bükkfafélék (Fagaceae)
+- **[Nemzetség](@/taxonomy/genus.md)** — Tölgy (Quercus)
+- **[Faj](@/taxonomy/species.md)** — Kocsányos tölgy (Quercus robur)
 
 ## A kétnevű nevek
 
