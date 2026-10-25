@@ -1,22 +1,29 @@
 {% extends "base.html" %}
 
 {% block title %}Lomb – magyarországi fafajok adatbázisa{% endblock %}
+{% block body_class %}home-page{% endblock %}
 
 {% block content %}
 {% set speciesSection = get_section(path="species/_index.md") %}
 
-<section class="hero">
-    <p class="eyebrow">Magyarországi fafajok adatbázisa</p>
-    <h1>Lomb</h1>
-    <p class="lead">
-        Ismerd meg a hazai erdők, parkok és fasorok fáit: megjelenésüket, élőhelyüket és
-        természeti jelentőségüket.
-    </p>
-</section>
+<div class="home-shell">
+    <section class="home-intro" aria-labelledby="home-title">
+        <p class="eyebrow">Magyarországi fafajok adatbázisa</p>
+        <h1 id="home-title">Lomb</h1>
+        <p class="lead">
+            Ismerd meg a hazai erdők, parkok és fasorok fáit: megjelenésüket, élőhelyüket és
+            természeti jelentőségüket.
+        </p>
+    </section>
 
-{% if speciesSection.pages %}
-{{<species.list pages={speciesSection.pages} />}}
-{% else %}
-<p class="empty-state">Hamarosan érkeznek az első fafajok.</p>
-{% endif %}
+    <div class="home-menu" aria-hidden="true"></div>
+
+    <section class="home-search" aria-label="Keresés a fafajok között">
+        {% if speciesSection.pages %}
+        {{<species.list pages={speciesSection.pages} />}}
+        {% else %}
+        <p class="empty-state">Hamarosan érkeznek az első fafajok.</p>
+        {% endif %}
+    </section>
+</div>
 {% endblock content %}
