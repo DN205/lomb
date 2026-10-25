@@ -46,7 +46,7 @@ A mézgás éger a hazai vizes élőhelyek jellegzetes fája. Sötét kérgérő
 
 ## Megjelenése {#appearance}
 
-Levelei kerekek, csúcsuk lekerekített, felületük fiatalon ragadós (mézgás), fényes zöld. Kérge fiatalon sima, később sötét, repedezett. Barkás virágzata korán nyílik; termése apró, tobozszerű, fásodó füzérke.
+Levelei kerekek, csúcsuk lekerekített, felületük fiatalon ragadós (mézgás), fényes zöld. Kérge fiatalon sima, később sötét, repedezett. [Barkás](@/glossary.md#barka) virágzata korán nyílik; termése apró, [tobozszerű](@/glossary.md#toboz), fásodó füzérke.
 
 ## Élőhelye {#habitat}
 

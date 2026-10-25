@@ -46,7 +46,7 @@ A szőrös nyír a közönséges nyír közeli rokona, amely nedvesebb, hűvöse
 
 ## Megjelenése {#appearance}
 
-Fiatal hajtásai és levelei finoman szőrösek, levelei szélesebbek, tojásdadok. Kérge kevésbé fehér, mint a közönséges nyír, és kevésbé válik le papírszerűen. Barkás virágzata és apró, szárnyas termése a közönséges nyíréhez hasonló.
+Fiatal hajtásai és levelei finoman szőrösek, levelei szélesebbek, tojásdadok. Kérge kevésbé fehér, mint a közönséges nyír, és kevésbé válik le papírszerűen. [Barkás](@/glossary.md#barka) virágzata és apró, [szárnyas termése](@/glossary.md#szarnyas-termes) a közönséges nyíréhez hasonló.
 
 ## Élőhelye {#habitat}
 

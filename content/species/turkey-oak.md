@@ -43,11 +43,11 @@ clades = [
 ]
 +++
 
-A cser a Kárpát-medence déli, melegebb vidékeinek jellegzetes tölgye. Szubmediterrán elterjedésű, szárazságtűrő faj, amelynek bozontos kupacsú makkja és parafás kérge könnyen felismerhetővé teszi.
+A cser a Kárpát-medence déli, melegebb vidékeinek jellegzetes tölgye. Szubmediterrán elterjedésű, szárazságtűrő faj, amelynek bozontos kupacsú [makkja](@/glossary.md#makk) és parafás kérge könnyen felismerhetővé teszi.
 
 ## Megjelenése {#appearance}
 
-Levelei hosszúkásak, karéjosak, karéjai hegyesek, sertében végződnek; őszi lombszíne sárgásbarna. Makktermésének kupacsa jellegzetesen bozontos, hosszú, visszahajló pikkelyekkel borított. Kérge mélyen barázdált, gyakran parafás vastagodásokat visel.
+Levelei hosszúkásak, karéjosak, [karéjai](@/glossary.md#karej) hegyesek, sertében végződnek; őszi lombszíne sárgásbarna. Makktermésének [kupacsa](@/glossary.md#kupacs) jellegzetesen bozontos, hosszú, visszahajló pikkelyekkel borított. Kérge mélyen barázdált, gyakran parafás vastagodásokat visel.
 
 ## Élőhelye {#habitat}
 

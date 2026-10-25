@@ -46,7 +46,7 @@ A kanadai nyár a fekete nyár és az amerikai keleti nyár (Populus deltoides) 
 
 ## Megjelenése {#appearance}
 
-Levelei nagyok, háromszögletűek, hegyes csúcsúak, fűrészes szélűek. Kérge idősebb korában mélyen repedezett. Barkás virágzata kora tavasszal nyílik; termése apró, szőrös magtok. Koronája kúpos, gyorsan növő.
+Levelei nagyok, háromszögletűek, hegyes csúcsúak, fűrészes szélűek. Kérge idősebb korában mélyen repedezett. [Barkás](@/glossary.md#barka) virágzata kora tavasszal nyílik; termése apró, szőrös [magtok](@/glossary.md#magtok). Koronája kúpos, gyorsan növő.
 
 ## Élőhelye {#habitat}
 

@@ -47,7 +47,7 @@ A magyar kőris a magas kőris közeli rokona, amely az alföldi ártéri erdők
 
 ## Megjelenése {#appearance}
 
-Levelei szárnyasan összetettek, a magas kőrisénál keskenyebb, hosszúkás levélkékkel. Rügyei barnák, nem feketék, mint a magas kőrisé. Termése szárnyas szamara, amely a magas kőriséhez hasonló.
+Levelei [szárnyasan összetettek](@/glossary.md#szarnyasan-osszetett-level), a magas kőrisénál keskenyebb, hosszúkás levélkékkel. Rügyei barnák, nem feketék, mint a magas kőrisé. Termése szárnyas [szamara](@/glossary.md#szarnyas-termes), amely a magas kőriséhez hasonló.
 
 ## Élőhelye {#habitat}
 

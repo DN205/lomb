@@ -45,7 +45,7 @@ A vénic szil a hazai ártéri erdők jellegzetes, magasra növő szilfaja. Hoss
 
 ## Megjelenése {#appearance}
 
-Levelei szélesek, aszimmetrikus vállúak, rövid nyelűek, fűrészes szélűek. Termése lapos, szárnyas szamara, amely hosszú kocsányon lóg. Kérge idősebb korában repedezett, szürkésbarna.
+Levelei szélesek, aszimmetrikus vállúak, rövid nyelűek, fűrészes szélűek. Termése lapos, szárnyas [szamara](@/glossary.md#szarnyas-termes), amely hosszú kocsányon lóg. Kérge idősebb korában repedezett, szürkésbarna.
 
 ## Élőhelye {#habitat}
 

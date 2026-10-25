@@ -47,7 +47,7 @@ A fehér fűz a hazai vízpartok legismertebb fája. Ezüstszürke, selymes leve
 
 ## Megjelenése {#appearance}
 
-Levelei hosszúkásak, lándzsásak, fonákjukon ezüstszürkén selymesek. Ágai hajlékonyak, fiatalon sárgásbarnák. Barkás virágzata kora tavasszal nyílik; termése apró, szőrös magtok.
+Levelei hosszúkásak, lándzsásak, fonákjukon ezüstszürkén selymesek. Ágai hajlékonyak, fiatalon sárgásbarnák. [Barkás](@/glossary.md#barka) virágzata kora tavasszal nyílik; termése apró, szőrös [magtok](@/glossary.md#magtok).
 
 ## Élőhelye {#habitat}
 

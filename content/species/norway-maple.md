@@ -46,7 +46,7 @@ A korai juhar a leggyakrabban ültetett hazai juharfaj. Lombfakadás előtt nyí
 
 ## Megjelenése {#appearance}
 
-Levelei nagyok, tenyeresen ötkaréjúak, hegyes karéjokkal; levélnyelének törésekor tejnedvet ereszt. Virágai élénksárgák, lombfakadás előtt, áprilisban nyílnak. Termése ikerszárnyas, éretten barnás.
+Levelei nagyok, tenyeresen ötkaréjúak, hegyes [karéjokkal](@/glossary.md#karej); levélnyelének törésekor tejnedvet ereszt. Virágai élénksárgák, lombfakadás előtt, áprilisban nyílnak. Termése [ikerszárnyas](@/glossary.md#ikerszarnyas-termes), éretten barnás.
 
 ## Élőhelye {#habitat}
 

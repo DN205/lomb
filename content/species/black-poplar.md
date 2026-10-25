@@ -47,11 +47,11 @@ A fekete nyár a hazai ártéri ligeterdők nagy termetű, hosszú életű fája
 
 ## Megjelenése {#appearance}
 
-Levelei háromszögletűek, hegyes csúcsúak, fűrészes szélűek. Kérge idősebb korában mélyen repedezett, sötét. Barkás virágzata kora tavasszal nyílik; termése apró, szőrös magtok.
+Levelei háromszögletűek, hegyes csúcsúak, fűrészes szélűek. Kérge idősebb korában mélyen repedezett, sötét. [Barkás](@/glossary.md#barka) virágzata kora tavasszal nyílik; termése apró, szőrös [magtok](@/glossary.md#magtok).
 
 ## Élőhelye {#habitat}
 
-Nedves, mély ártéri talajokat kedvel; folyók mentén, keményfás ligeterdőkben él. Magyarországon főként a Duna és a Tisza ártéri erdeiben fordul elő. Jól tűri az időszakos elárasztást; gyökérsarjakkal és magról is szaporodik.
+Nedves, mély ártéri talajokat kedvel; folyók mentén, keményfás ligeterdőkben él. Magyarországon főként a Duna és a Tisza ártéri erdeiben fordul elő. Jól tűri az időszakos elárasztást; [gyökérsarjakkal](@/glossary.md#gyokersarj) és magról is szaporodik.
 
 ## Jelentősége {#importance}
 

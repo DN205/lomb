@@ -43,11 +43,11 @@ clades = [
 ]
 +++
 
-A közönséges nyír a hazai erdők egyik legfeltűnőbb pionír fája. Fehér, papírszerűen leváló kérgéről és lecsüngő ágairól már messziről felismerhető.
+A közönséges nyír a hazai erdők egyik legfeltűnőbb [pionír](@/glossary.md#pionir-faj) fája. Fehér, papírszerűen leváló kérgéről és lecsüngő ágairól már messziről felismerhető.
 
 ## Megjelenése {#appearance}
 
-Kérge fiatalon fehér, papírszerűen leváló, idősebb korában fekete repedésekkel tagolt. Levelei kicsik, rombuszosak, fűrészes szélűek, ősszel aranysárgára színeződnek. Barkás virágzata tavasszal nyílik; termése apró, szárnyas makkocska.
+Kérge fiatalon fehér, papírszerűen leváló, idősebb korában fekete repedésekkel tagolt. Levelei kicsik, rombuszosak, fűrészes szélűek, ősszel aranysárgára színeződnek. [Barkás](@/glossary.md#barka) virágzata tavasszal nyílik; termése apró, [szárnyas makkocska](@/glossary.md#szarnyas-termes).
 
 ## Élőhelye {#habitat}
 

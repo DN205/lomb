@@ -43,7 +43,7 @@ A húsvörös vadgesztenye nem vadon élő faj, hanem a közönséges vadgeszten
 
 ## Megjelenése {#appearance}
 
-Levelei a közönséges vadgesztenyéhez hasonlóan ujjasan összetettek, de valamivel kisebbek. Májusban rózsaszín, húsvörös vagy sötétvörös virágfüzérei nyílnak. Termése gömbölyded tok, a közönséges vadgesztenyéénél kevésbé tüskés, magjai barnák.
+Levelei a közönséges vadgesztenyéhez hasonlóan [ujjasan összetettek](@/glossary.md#tenyeresen-osszetett-level), de valamivel kisebbek. Májusban rózsaszín, húsvörös vagy sötétvörös virágfüzérei nyílnak. Termése gömbölyded [tok](@/glossary.md#magtok), a közönséges vadgesztenyéénél kevésbé tüskés, magjai barnák.
 
 ## Élőhelye {#habitat}
 

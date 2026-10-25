@@ -39,11 +39,11 @@ clades = [
 ]
 +++
 
-A kocsányos tölgy a Kárpát-medence legtekintélyesebb őshonos fái közé tartozik. Neve onnan ered, hogy makktermése hosszú kocsányon függ, ellentétben a kocsánytalan tölggyel, amelynek makkja szinte ül a hajtáson.
+A kocsányos tölgy a Kárpát-medence legtekintélyesebb [őshonos](@/glossary.md#oshonos) fái közé tartozik. Neve onnan ered, hogy makktermése hosszú kocsányon függ, ellentétben a kocsánytalan tölggyel, amelynek makkja szinte ül a hajtáson.
 
 ## Megjelenése {#appearance}
 
-Kérge fiatalon sima és szürkés, idősebb korában mélyen repedezett, sötétbarna. Levelei öblösek, karéjosak, rövid nyelűek, ősszel aranybarnára színeződnek. A fa koronája széles, boltozatos, szabadon állva csaknem olyan széles, mint amilyen magas.
+Kérge fiatalon sima és szürkés, idősebb korában mélyen repedezett, sötétbarna. Levelei öblösek, [karéjosak](@/glossary.md#karej), rövid nyelűek, ősszel aranybarnára színeződnek. A fa koronája széles, boltozatos, szabadon állva csaknem olyan széles, mint amilyen magas.
 
 ## Élőhelye {#habitat}
 
@@ -51,4 +51,4 @@ Síkvidéki és dombvidéki erdőkben, mélyebb, üde talajokon érzi jól magá
 
 ## Jelentősége {#importance}
 
-Kemény, tartós faanyaga évszázadok óta épületfa, bútorfa és dongafa. Termése, a makk, számos állatfaj tápláléka, koronája és odvai pedig madaraknak, denevéreknek adnak otthont. Egy-egy öreg példány egymaga is egész élőközösségnek biztosíthat lakóhelyet.
+Kemény, tartós faanyaga évszázadok óta épületfa, bútorfa és dongafa. Termése, a [makk](@/glossary.md#makk), számos állatfaj tápláléka, koronája és odvai pedig madaraknak, denevéreknek adnak otthont. Egy-egy öreg példány egymaga is egész élőközösségnek biztosíthat lakóhelyet.

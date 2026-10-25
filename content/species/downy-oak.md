@@ -47,7 +47,7 @@ A molyhos tölgy a legmelegebb, legszárazabb hazai tölgyfaj. Nevét a leveleit
 
 ## Megjelenése {#appearance}
 
-Levelei kicsik, karéjosak, mindkét oldalukon molyhosak, ezért szürkészöldnek tűnnek. Gyakran alacsony, széles koronájú, bokrosodó fa, amelynek ágai görbültek lehetnek. Makkja rövid kocsányon ül, kupacsa pikkelyes.
+Levelei kicsik, [karéjosak](@/glossary.md#karej), mindkét oldalukon molyhosak, ezért szürkészöldnek tűnnek. Gyakran alacsony, széles koronájú, bokrosodó fa, amelynek ágai görbültek lehetnek. [Makkja](@/glossary.md#makk) rövid kocsányon ül, [kupacsa](@/glossary.md#kupacs) pikkelyes.
 
 ## Élőhelye {#habitat}
 

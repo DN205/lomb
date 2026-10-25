@@ -44,7 +44,7 @@ A feketefenyő Dél-Európából és Kis-Ázsiából származó, Magyarországon
 
 ## Megjelenése {#appearance}
 
-Tűlevelei párosával állnak, hosszúak, merevek, sötétzöldek. Kérge sötétbarna, idősebb korában mélyen repedezett. Toboza kúpos, éretten fényes barna.
+[Tűlevelei](@/glossary.md#tulevel) párosával állnak, hosszúak, merevek, sötétzöldek. Kérge sötétbarna, idősebb korában mélyen repedezett. [Toboza](@/glossary.md#toboz) kúpos, éretten fényes barna.
 
 ## Élőhelye {#habitat}
 

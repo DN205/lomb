@@ -44,7 +44,7 @@ A duglászfenyő Észak-Amerikából származó, gyorsan növő fenyőfaj, amely
 
 ## Megjelenése {#appearance}
 
-Tűlevelei laposak, puha tapintásúak, sötétzöldek, fonákjukon két fehér csíkkal. Tobozai hosszúkásak, lecsüngők, jellegzetes háromágú murvalevelekkel. Kérge idősebb korában mélyen repedezett, vastag.
+[Tűlevelei](@/glossary.md#tulevel) laposak, puha tapintásúak, sötétzöldek, fonákjukon két fehér csíkkal. [Tobozai](@/glossary.md#toboz) hosszúkásak, lecsüngők, jellegzetes háromágú murvalevelekkel. Kérge idősebb korában mélyen repedezett, vastag.
 
 ## Élőhelye {#habitat}
 

@@ -41,11 +41,11 @@ clades = [
 ]
 +++
 
-Az erdei fenyő a hazai fenyvesek egyik legfontosabb fafaja, amely csak az ország nyugati peremén őshonos. Vörösesbarna kérgéről és páros tűleveleiről ismerhető fel.
+Az erdei fenyő a hazai fenyvesek egyik legfontosabb fafaja, amely csak az ország nyugati peremén [őshonos](@/glossary.md#oshonos). Vörösesbarna kérgéről és páros tűleveleiről ismerhető fel.
 
 ## Megjelenése {#appearance}
 
-Tűlevelei párosával állnak, hosszúak, merevek, sötétzöldek. Kérge a törzs felső részén vörösesbarna, pikkelyesen leváló; alul szürkés, repedezett. Toboza kúpos, éretten barnás.
+[Tűlevelei](@/glossary.md#tulevel) párosával állnak, hosszúak, merevek, sötétzöldek. Kérge a törzs felső részén vörösesbarna, pikkelyesen leváló; alul szürkés, repedezett. [Toboza](@/glossary.md#toboz) kúpos, éretten barnás.
 
 ## Élőhelye {#habitat}
 

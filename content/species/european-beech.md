@@ -46,7 +46,7 @@ A bükk a hazai hegyvidéki erdők legjellegzetesebb fája. Sima, ezüstszürke 
 
 ## Megjelenése {#appearance}
 
-Levelei tojásdadok, ép szélűek, fényesek, ősszel réz- vagy aranybarnára színeződnek. Kérge fiatalon sima és ezüstszürke, idősebb korában is viszonylag sima marad. Termése a tövises kupacsban ülő, háromszögletű bükköly, amely ősszel érik.
+Levelei tojásdadok, ép szélűek, fényesek, ősszel réz- vagy aranybarnára színeződnek. Kérge fiatalon sima és ezüstszürke, idősebb korában is viszonylag sima marad. Termése a tövises [kupacsban](@/glossary.md#kupacs) ülő, háromszögletű bükköly, amely ősszel érik.
 
 ## Élőhelye {#habitat}
 

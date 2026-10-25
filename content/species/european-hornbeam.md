@@ -46,7 +46,7 @@ A gyertyán szerény megjelenésű, de rendkívül kemény fájú hazai fafaj. S
 
 ## Megjelenése {#appearance}
 
-Levelei tojásdadok, fűrészes szélűek, erősen erezettek, ősszel sárgára színeződnek. Kérge sima, szürke, a törzs pedig jellegzetesen izmos, barázdált. Termése apró, szárnyas makkocska, amelyek csoportosan, fürtökben lógnak.
+Levelei tojásdadok, fűrészes szélűek, erősen erezettek, ősszel sárgára színeződnek. Kérge sima, szürke, a törzs pedig jellegzetesen izmos, barázdált. Termése apró, [szárnyas makkocska](@/glossary.md#szarnyas-termes), amelyek csoportosan, fürtökben lógnak.
 
 ## Élőhelye {#habitat}
 

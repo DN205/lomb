@@ -47,7 +47,7 @@ A fehér nyár a hazai ártéri erdők feltűnő fája. Leveleinek fehér, molyh
 
 ## Megjelenése {#appearance}
 
-Levelei tenyeresen karéjosak, fonákjukon fehéren molyhosak, ezért a szélben ezüstösen csillognak. Kérge fiatalon világos, sima, idősebb korában repedezett. Barkás virágzata kora tavasszal nyílik; termése apró, szőrös magtok.
+Levelei tenyeresen [karéjosak](@/glossary.md#karej), fonákjukon fehéren molyhosak, ezért a szélben ezüstösen csillognak. Kérge fiatalon világos, sima, idősebb korában repedezett. [Barkás](@/glossary.md#barka) virágzata kora tavasszal nyílik; termése apró, szőrös [magtok](@/glossary.md#magtok).
 
 ## Élőhelye {#habitat}
 

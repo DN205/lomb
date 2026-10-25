@@ -46,7 +46,7 @@ A vadkörte a hazai erdőszélek és cserjések ritka, tövises fája. Apró, ke
 
 ## Megjelenése {#appearance}
 
-Levelei kerekdedek, fényesek, fűrészes szélűek; ágai gyakran tövisesek. Tavasszal fehér virágok nyílnak. Termése apró, kemény, zöldesbarna körte, amely ősszel érik.
+Levelei kerekdedek, fényesek, fűrészes szélűek; ágai gyakran tövisesek. Tavasszal fehér virágok nyílnak. Termése apró, kemény, zöldesbarna [körte](@/glossary.md#almatermes), amely ősszel érik.
 
 ## Élőhelye {#habitat}
 

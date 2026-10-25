@@ -46,7 +46,7 @@ A hamvas éger a mézgás éger közeli rokona, amely hegyi patakok mentén és 
 
 ## Megjelenése {#appearance}
 
-Levelei tojásdadok, hegyes csúcsúak, fonákjukon hamvasan szőrösek. Kérge sima, szürke, fiatalon ezüstös. Barkás virágzata és apró, tobozszerű termése a mézgás égeréhez hasonló.
+Levelei tojásdadok, hegyes csúcsúak, fonákjukon hamvasan szőrösek. Kérge sima, szürke, fiatalon ezüstös. [Barkás](@/glossary.md#barka) virágzata és apró, [tobozszerű](@/glossary.md#toboz) termése a mézgás égeréhez hasonló.
 
 ## Élőhelye {#habitat}
 

@@ -43,11 +43,11 @@ clades = [
 ]
 +++
 
-A rezgő nyár a hazai erdők egyik leggyorsabban növő pionír fája. Kerek levelei hosszú, lapos nyelükön ülnek, ezért a legkisebb szélben is rezegnek.
+A rezgő nyár a hazai erdők egyik leggyorsabban növő [pionír](@/glossary.md#pionir-faj) fája. Kerek levelei hosszú, lapos nyelükön ülnek, ezért a legkisebb szélben is rezegnek.
 
 ## Megjelenése {#appearance}
 
-Levelei kerekek, fogazott szélűek, hosszú, lapos levélnyélen ülnek, ezért szélben jellegzetesen rezegnek. Kérge fiatalon sima, zöldesszürke, idősebb korában repedezett. Barkás virágzata kora tavasszal nyílik; termése apró, szőrös magtok.
+Levelei kerekek, fogazott szélűek, hosszú, lapos levélnyélen ülnek, ezért szélben jellegzetesen rezegnek. Kérge fiatalon sima, zöldesszürke, idősebb korában repedezett. [Barkás](@/glossary.md#barka) virágzata kora tavasszal nyílik; termése apró, szőrös [magtok](@/glossary.md#magtok).
 
 ## Élőhelye {#habitat}
 

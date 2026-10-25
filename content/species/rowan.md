@@ -47,7 +47,7 @@ A madárberkenye a hazai hegyvidékek és erdőszélek díszes fája. Ősszel na
 
 ## Megjelenése {#appearance}
 
-Levelei szárnyasan összetettek, 11–17 levélkéből állnak, ősszel vörösre színeződnek. Tavasszal fehér, ernyős virágzatok nyílnak. Termése narancsvörös, gömbölyű bogyó, amely ősszel érik.
+Levelei [szárnyasan összetettek](@/glossary.md#szarnyasan-osszetett-level), 11–17 levélkéből állnak, ősszel vörösre színeződnek. Tavasszal fehér, ernyős [virágzatok](@/glossary.md#viragzat) nyílnak. Termése narancsvörös, gömbölyű [bogyó](@/glossary.md#bogyo), amely ősszel érik.
 
 ## Élőhelye {#habitat}
 

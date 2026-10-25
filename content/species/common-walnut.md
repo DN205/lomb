@@ -47,7 +47,7 @@ A dió a Kárpát-medencében évszázadok óta termesztett gyümölcsfa, amelye
 
 ## Megjelenése {#appearance}
 
-Levelei szárnyasan összetettek, 5–9 nagy levélkéből állnak, jellegzetes, kellemes illatúak. Kérge fiatalon sima, világosszürke, idősebb korában repedezett. Termése a közismert dió, amelynek zöld burka éréskor felnyílik.
+Levelei [szárnyasan összetettek](@/glossary.md#szarnyasan-osszetett-level), 5–9 nagy levélkéből állnak, jellegzetes, kellemes illatúak. Kérge fiatalon sima, világosszürke, idősebb korában repedezett. Termése a közismert [dió](@/glossary.md#csonthéjas-termes), amelynek zöld burka éréskor felnyílik.
 
 ## Élőhelye {#habitat}
 

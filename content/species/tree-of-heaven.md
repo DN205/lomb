@@ -41,15 +41,15 @@ clades = [
 ]
 +++
 
-A bálványfa, más néven mennyei fa, Kelet-Ázsiából származó, rendkívül agresszív inváziós fafaj. Nagy, szárnyasan összetett leveleiről és kellemetlen szagáról ismerhető fel.
+A bálványfa, más néven mennyei fa, Kelet-Ázsiából származó, rendkívül agresszív [inváziós](@/glossary.md#invazios-faj) fafaj. Nagy, [szárnyasan összetett](@/glossary.md#szarnyasan-osszetett-level) leveleiről és kellemetlen szagáról ismerhető fel.
 
 ## Megjelenése {#appearance}
 
-Levelei nagyok, szárnyasan összetettek, 13–25 levélkéből állnak, vöröses levélnyéllel. Kérge fiatalon sima, szürke, idősebb korában repedezett. Termése szárnyas, csoportosan lógó mag, amely ősszel érik.
+Levelei nagyok, szárnyasan összetettek, 13–25 levélkéből állnak, vöröses levélnyéllel. Kérge fiatalon sima, szürke, idősebb korában repedezett. Termése [szárnyas](@/glossary.md#szarnyas-termes), csoportosan lógó mag, amely ősszel érik.
 
 ## Élőhelye {#habitat}
 
-Városi, törmelékes, száraz, zavart élőhelyeket kedvel; utak mentén, vasúti területeken, falak tövén és parlagon hagyott területeken terjed. Magyarországon főként városokban és zavart élőhelyeken gyakori. Gyökérsarjakkal és magról is szaporodik.
+Városi, törmelékes, száraz, zavart élőhelyeket kedvel; utak mentén, vasúti területeken, falak tövén és parlagon hagyott területeken terjed. Magyarországon főként városokban és zavart élőhelyeken gyakori. [Gyökérsarjakkal](@/glossary.md#gyokersarj) és magról is szaporodik.
 
 ## Jelentősége {#importance}
 

@@ -46,7 +46,7 @@ A vörös tölgy Észak-Amerikából származó, Magyarországon erdészeti és 
 
 ## Megjelenése {#appearance}
 
-Levelei nagyok, karéjosak, éles, hegyes karéjokkal; őszi színük élénkvörös. Makktermése nagy, rövid kocsányon ül, kupacsa pikkelyes. Kérge idősebb korában repedezett, sötétszürke.
+Levelei nagyok, [karéjosak](@/glossary.md#karej), éles, hegyes karéjokkal; őszi színük élénkvörös. [Makktermése](@/glossary.md#makk) nagy, rövid kocsányon ül, [kupacsa](@/glossary.md#kupacs) pikkelyes. Kérge idősebb korában repedezett, sötétszürke.
 
 ## Élőhelye {#habitat}
 

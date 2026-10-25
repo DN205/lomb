@@ -45,7 +45,7 @@ A vadszil a hazai ártéri és dombvidéki erdők szilfaja. Aszimmetrikus levele
 
 ## Megjelenése {#appearance}
 
-Levelei kicsik, aszimmetrikus vállúak, fűrészes szélűek, felületük érdes. Fiatal ágain gyakran parafás bordák fejlődnek. Termése lapos, szárnyas szamara, amely tavasszal érik.
+Levelei kicsik, aszimmetrikus vállúak, fűrészes szélűek, felületük érdes. Fiatal ágain gyakran parafás bordák fejlődnek. Termése lapos, szárnyas [szamara](@/glossary.md#szarnyas-termes), amely tavasszal érik.
 
 ## Élőhelye {#habitat}
 

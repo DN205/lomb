@@ -46,7 +46,7 @@ A fekete dió Észak-Amerikából származó, Magyarországon erdészeti és dí
 
 ## Megjelenése {#appearance}
 
-Levelei szárnyasan összetettek, hosszúak, sok levélkéből állnak. Kérge sötétbarna, mélyen barázdált, idősebb korában vastag. Termése gömbölyű, kemény héjú dió, amelynek zöld burka éréskor felnyílik.
+Levelei [szárnyasan összetettek](@/glossary.md#szarnyasan-osszetett-level), hosszúak, sok levélkéből állnak. Kérge sötétbarna, mélyen barázdált, idősebb korában vastag. Termése gömbölyű, kemény héjú [dió](@/glossary.md#csonthéjas-termes), amelynek zöld burka éréskor felnyílik.
 
 ## Élőhelye {#habitat}
 

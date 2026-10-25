@@ -40,11 +40,11 @@ clades = [
 ]
 +++
 
-A lucfenyő Európa hegyvidéki fenyőfaja, amely Magyarországon nem őshonos, de erdészeti célból nagy területen telepítik. Kúpos koronájáról és lecsüngő tobozairól ismerhető fel.
+A lucfenyő Európa hegyvidéki fenyőfaja, amely Magyarországon nem [őshonos](@/glossary.md#oshonos), de erdészeti célból nagy területen telepítik. Kúpos koronájáról és lecsüngő tobozairól ismerhető fel.
 
 ## Megjelenése {#appearance}
 
-Tűlevelei rövidek, sötétzöldek, egyenként állnak a hajtásokon. Tobozai hosszúkásak, lecsüngők, éretten barnák. Kérge vörösesbarna, pikkelyesen leváló. Koronája fiatalon kúpos, idősebb korában szabálytalan.
+[Tűlevelei](@/glossary.md#tulevel) rövidek, sötétzöldek, egyenként állnak a hajtásokon. [Tobozai](@/glossary.md#toboz) hosszúkásak, lecsüngők, éretten barnák. Kérge vörösesbarna, pikkelyesen leváló. Koronája fiatalon kúpos, idősebb korában szabálytalan.
 
 ## Élőhelye {#habitat}
 

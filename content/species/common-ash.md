@@ -46,7 +46,7 @@ A magas kőris a hazai liget- és szurdokerdők magas, karcsú fája. Fekete rü
 
 ## Megjelenése {#appearance}
 
-Levelei szárnyasan összetettek, 7–13 levélkéből állnak, amelyek fűrészes szélűek. Rügyei jellegzetesen feketék, bársonyosak. Termése hosszúkás, szárnyas szamara, amely csoportosan lóg a fán, és télen is megmaradhat.
+Levelei [szárnyasan összetettek](@/glossary.md#szarnyasan-osszetett-level), 7–13 [levélkéből](@/glossary.md#levelke) állnak, amelyek fűrészes szélűek. Rügyei jellegzetesen feketék, bársonyosak. Termése hosszúkás, szárnyas [szamara](@/glossary.md#szarnyas-termes), amely csoportosan lóg a fán, és télen is megmaradhat.
 
 ## Élőhelye {#habitat}
 

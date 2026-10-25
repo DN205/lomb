@@ -46,7 +46,7 @@ A vadalma a hazai erdők ritka, alacsony termetű gyümölcsfája. Apró, savany
 
 ## Megjelenése {#appearance}
 
-Levelei kerekdedek, fűrészes szélűek, fonákjukon fiatalon molyhosak. Ágai gyakran tövisesek. Tavasszal rózsaszínes-fehér virágok nyílnak; termése apró, sárgászöld vagy pirosló alma.
+Levelei kerekdedek, fűrészes szélűek, fonákjukon fiatalon molyhosak. Ágai gyakran tövisesek. Tavasszal rózsaszínes-fehér virágok nyílnak; termése apró, sárgászöld vagy pirosló [alma](@/glossary.md#almatermes).
 
 ## Élőhelye {#habitat}
 

@@ -46,7 +46,7 @@ A hegyi juhar a hazai hegyvidéki erdők nagy termetű juharfaja. Nagy, sötétz
 
 ## Megjelenése {#appearance}
 
-Levelei nagyok, tenyeresen ötkaréjúak, szíves vállúak, sötétzöldek; őszi színük sárga. Kérge fiatalon sima, később pikkelyesen, lapokban válik le. Virágai zöldessárgák, fürtökben nyílnak; termése ikerszárnyas.
+Levelei nagyok, tenyeresen ötkaréjúak, szíves vállúak, sötétzöldek; őszi színük sárga. Kérge fiatalon sima, később pikkelyesen, lapokban válik le. Virágai zöldessárgák, fürtökben nyílnak; termése [ikerszárnyas](@/glossary.md#ikerszarnyas-termes).
 
 ## Élőhelye {#habitat}
 

@@ -46,7 +46,7 @@ Az amerikai kőris Észak-Amerikából származó, Magyarországon sok helyen te
 
 ## Megjelenése {#appearance}
 
-Levelei szárnyasan összetettek, a magas kőriséhez hasonlóak, de levélkéi szélesebbek. Rügyei barnák, molyhosak, ellentétben a magas kőris fekete rügyeivel. Termése szárnyas szamara, amely csoportosan lóg.
+Levelei [szárnyasan összetettek](@/glossary.md#szarnyasan-osszetett-level), a magas kőriséhez hasonlóak, de levélkéi szélesebbek. Rügyei barnák, molyhosak, ellentétben a magas kőris fekete rügyeivel. Termése szárnyas [szamara](@/glossary.md#szarnyas-termes), amely csoportosan lóg.
 
 ## Élőhelye {#habitat}
 

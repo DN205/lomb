@@ -45,7 +45,7 @@ A hegyi szil a hazai hegyvidéki erdők nagy termetű szilfaja. Nagy, érdes lev
 
 ## Megjelenése {#appearance}
 
-Levelei nagyok, szélesek, aszimmetrikus vállúak, erősen érdes felületűek. Termése lapos, szárnyas szamara, amely tavasszal érik. Kérge idősebb korában hosszanti repedésekkel tagolt.
+Levelei nagyok, szélesek, aszimmetrikus vállúak, erősen érdes felületűek. Termése lapos, szárnyas [szamara](@/glossary.md#szarnyas-termes), amely tavasszal érik. Kérge idősebb korában hosszanti repedésekkel tagolt.
 
 ## Élőhelye {#habitat}
 

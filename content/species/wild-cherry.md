@@ -47,7 +47,7 @@ A madárcseresznye a hazai erdők egyik legszebb tavaszi virágzású fája. Fé
 
 ## Megjelenése {#appearance}
 
-Levelei tojásdadok, fűrészes szélűek, levélnyelükön mirigyek találhatók. Kérge vörösesbarna, fényes, jellegzetes keresztirányú parafa csíkokkal. Tavasszal fehér virágfüzérek nyílnak; termése apró, sötétvörös cseresznye.
+Levelei tojásdadok, fűrészes szélűek, levélnyelükön mirigyek találhatók. Kérge vörösesbarna, fényes, jellegzetes keresztirányú parafa csíkokkal. Tavasszal fehér virágfüzérek nyílnak; termése apró, sötétvörös [cseresznye](@/glossary.md#csonthéjas-termes).
 
 ## Élőhelye {#habitat}
 

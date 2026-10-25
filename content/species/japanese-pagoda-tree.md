@@ -46,7 +46,7 @@ A japán akác Kelet-Ázsiából származó díszfa, amelyet Magyarországon par
 
 ## Megjelenése {#appearance}
 
-Levelei szárnyasan összetettek, 7–17 levélkéből állnak, fényes zöldek. Nyár elején zöldesfehér, bódító illatú virágfürtök nyílnak. Termése hosszúkás, füzérszerű hüvely, amelyben kemény magok ülnek.
+Levelei [szárnyasan összetettek](@/glossary.md#szarnyasan-osszetett-level), 7–17 levélkéből állnak, fényes zöldek. Nyár elején zöldesfehér, bódító illatú virágfürtök nyílnak. Termése hosszúkás, füzérszerű [hüvely](@/glossary.md#huvely), amelyben kemény magok ülnek.
 
 ## Élőhelye {#habitat}
 

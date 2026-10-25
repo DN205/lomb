@@ -42,11 +42,11 @@ clades = [
 ]
 +++
 
-Az akác Magyarország legelterjedtebb idegenhonos fája, amelyet az észak-amerikai őshazájából hoztak be. Fehér, illatos virágfüzéreiről és szárnyasan összetett leveleiről ismerhető fel.
+Az akác Magyarország legelterjedtebb [idegenhonos](@/glossary.md#idegenhonos) fája, amelyet az észak-amerikai őshazájából hoztak be. Fehér, illatos virágfüzéreiről és [szárnyasan összetett](@/glossary.md#szarnyasan-osszetett-level) leveleiről ismerhető fel.
 
 ## Megjelenése {#appearance}
 
-Levelei szárnyasan összetettek, 7–19 levélkéből állnak; ágai gyakran tövisesek. Tavasz végén, nyár elején fehér, illatos fürtvirágzatok nyílnak. Termése lapos, barna babhüvely.
+Levelei szárnyasan összetettek, 7–19 levélkéből állnak; ágai gyakran tövisesek. Tavasz végén, nyár elején fehér, illatos fürtvirágzatok nyílnak. Termése lapos, barna [babhüvely](@/glossary.md#huvely).
 
 ## Élőhelye {#habitat}
 
@@ -54,4 +54,4 @@ Száraz, homokos, tápanyagszegény talajokat is elvisel; pionír fajként gyors
 
 ## Jelentősége {#importance}
 
-Kiváló mézelő növény; az akácméz Magyarország egyik legismertebb mézfajtája. Faanyaga rendkívül tartós, ezért oszlopok, kerítések készítésére használják. Inváziós fajként azonban veszélyezteti az őshonos élőhelyeket, ezért visszaszorítása indokolt.
+Kiváló mézelő növény; az akácméz Magyarország egyik legismertebb mézfajtája. Faanyaga rendkívül tartós, ezért oszlopok, kerítések készítésére használják. [Inváziós fajként](@/glossary.md#invazios-faj) azonban veszélyezteti az őshonos élőhelyeket, ezért visszaszorítása indokolt.

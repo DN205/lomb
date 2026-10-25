@@ -44,7 +44,7 @@ A bugás csörgőfa Kína és Korea hegyvidéki erdeiből származik, Európába
 
 ## Megjelenése {#appearance}
 
-Levelei nagyok, szárnyasan vagy kétszer szárnyasan összetettek, levélkéi tojásdadok, durván fűrészes szélűek, ősszel aranysárgára színeződnek. Júniusban és júliusban nyílnak felálló, bugás virágzatai, amelyek élénksárga virágokból állnak. Termése hártyás, felfújt, rózsaszínes-barna tok, benne néhány fekete, kemény mag.
+Levelei nagyok, [szárnyasan vagy kétszer szárnyasan összetettek](@/glossary.md#szarnyasan-osszetett-level), levélkéi tojásdadok, durván fűrészes szélűek, ősszel aranysárgára színeződnek. Júniusban és júliusban nyílnak felálló, bugás [virágzatai](@/glossary.md#viragzat), amelyek élénksárga virágokból állnak. Termése hártyás, felfújt, rózsaszínes-barna [tok](@/glossary.md#magtok), benne néhány fekete, kemény mag.
 
 ## Élőhelye {#habitat}
 

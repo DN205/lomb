@@ -47,7 +47,7 @@ A törékeny fűz a fehér fűz közeli rokona, amelynek ágai könnyen letörne
 
 ## Megjelenése {#appearance}
 
-Levelei hosszúkásak, lándzsásak, fényes zöldek, fonákjukon kevésbé selymesek, mint a fehér fűzé. Ágai könnyen, hangos recsenéssel törnek le, innen a neve. Barkás virágzata kora tavasszal nyílik.
+Levelei hosszúkásak, lándzsásak, fényes zöldek, fonákjukon kevésbé selymesek, mint a fehér fűzé. Ágai könnyen, hangos recsenéssel törnek le, innen a neve. [Barkás](@/glossary.md#barka) virágzata kora tavasszal nyílik.
 
 ## Élőhelye {#habitat}
 

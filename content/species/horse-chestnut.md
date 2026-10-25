@@ -44,7 +44,7 @@ A közönséges vadgesztenye a Balkán hegyvidéki erdeiből származik, de ma m
 
 ## Megjelenése {#appearance}
 
-Levelei ujjasan összetettek, öt-hét levélkéből állnak, és nagy, ernyőszerű koronát alkotnak. Májusban fehér, felálló virágfüzérek nyílnak, amelyek közepén sárga, majd vöröses foltok láthatók. Termése tüskés, zöld tok, benne egy-két fényes, barna mag, a közismert „gesztenye”.
+Levelei [ujjasan összetettek](@/glossary.md#tenyeresen-osszetett-level), öt-hét levélkéből állnak, és nagy, ernyőszerű koronát alkotnak. Májusban fehér, felálló virágfüzérek nyílnak, amelyek közepén sárga, majd vöröses foltok láthatók. Termése tüskés, zöld [tok](@/glossary.md#magtok), benne egy-két fényes, barna mag, a közismert „gesztenye”.
 
 ## Élőhelye {#habitat}
 

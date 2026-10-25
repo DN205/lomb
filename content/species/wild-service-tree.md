@@ -46,7 +46,7 @@ A barkócaberkenye a hazai tölgyesek ritka, értékes fája. Juharszerű, karé
 
 ## Megjelenése {#appearance}
 
-Levelei karéjosak, szélesek, juharlevélre emlékeztetnek, fényes zöldek, ősszel sárgára színeződnek. Tavasszal fehér virágok nyílnak. Termése barna, pettyes, alma alakú, amely késő ősszel érik.
+Levelei karéjosak, szélesek, juharlevélre emlékeztetnek, fényes zöldek, ősszel sárgára színeződnek. Tavasszal fehér virágok nyílnak. Termése barna, pettyes, [alma alakú](@/glossary.md#almatermes), amely késő ősszel érik.
 
 ## Élőhelye {#habitat}
 

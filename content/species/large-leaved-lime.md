@@ -43,7 +43,7 @@ A nagylevelű hárs a kislevelű hárs közeli rokona, de annál testesebb, nagy
 
 ## Megjelenése {#appearance}
 
-Levelei széles szív alakúak, a kislevelű hársénál jóval nagyobbak, fonákjukon gyakran molyhos. Kérge idősebb korában mélyen barázdált. Virágzata májusban és június elején nyílik, mintegy két héttel a kislevelű hárs előtt; virágai sárgásfehérek, ernyőszerű csoportokban állnak.
+Levelei széles szív alakúak, a kislevelű hársénál jóval nagyobbak, fonákjukon gyakran molyhos. Kérge idősebb korában mélyen barázdált. [Virágzata](@/glossary.md#viragzat) májusban és június elején nyílik, mintegy két héttel a kislevelű hárs előtt; virágai sárgásfehérek, ernyőszerű csoportokban állnak.
 
 ## Élőhelye {#habitat}
 

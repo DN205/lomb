@@ -18,6 +18,7 @@ Zola 0.23.4 static site (Hungarian tree-species database). No Node, no package m
 - `content/taxonomy/_index.md` — taxonomy section homepage (`/taxonomy/`), listing its two explainer pages.
 - `content/taxonomy/linnea.md`, `content/taxonomy/cladistics.md` — Linnéi and kladisztikus rendszertan explainers; both use `templates/taxonomy-page.html`.
 - `templates/taxonomy.html`, `templates/taxonomy-page.html` — section homepage with topic cards and the shared explainer layout (`.reference-sheet`: `.reference-page` plus a right-hand `.status-box`).
+- `content/glossary.md`, `templates/glossary.html` — the `/glossary/` fogalomtár of botanical and ecological terms. Each `## Term {#anchor}` heading is a linkable entry; the template builds the index from `page.toc`, and species articles link the first occurrence of a term as `[term](@/glossary.md#anchor)` instead of redefining it in the article.
 - `templates/tree-page.html` — three-column species sheet: `.fact-box` (Adatlap + Rendszertan) left, article body centre, `.status-box` (update date + verification) right. Both side panels are `position: sticky` and use the same dashed panel styling; the grid collapses to one column at 720 px, where the body comes first.
 - `static/css/tree.css` — the only stylesheet (plain CSS, `compile_sass = false`). `public/css/tree.css` is build output; edit `static/` and rebuild.
 - `static/js/filter.js` — accent-insensitive filter over `#species-filter` / `#species-list`; it also restores and rewrites the `?q=` URL parameter.

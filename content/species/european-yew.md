@@ -41,11 +41,11 @@ clades = [
 ]
 +++
 
-A tiszafa lassan növő, hosszú életű örökzöld, amely hazánkban védett faj. Sötétzöld tűleveleiről és vörös magköpenyéről ismerhető fel.
+A tiszafa lassan növő, hosszú életű [örökzöld](@/glossary.md#orokzold), amely hazánkban védett faj. Sötétzöld tűleveleiről és vörös magköpenyéről ismerhető fel.
 
 ## Megjelenése {#appearance}
 
-Tűlevelei laposak, sötétzöldek, kétoldalt sárgás csíkkal. Termése vörös, húsos magköpeny (arillus), amelyben a mérgező mag ül. Kérge vörösesbarna, hosszanti csíkokban válik le. Nagyon lassan nő, de évszázadokig, akár évezredig élhet.
+[Tűlevelei](@/glossary.md#tulevel) laposak, sötétzöldek, kétoldalt sárgás csíkkal. Termése vörös, húsos [magköpeny](@/glossary.md#magkopeny), amelyben a mérgező mag ül. Kérge vörösesbarna, hosszanti csíkokban válik le. Nagyon lassan nő, de évszázadokig, akár évezredig élhet.
 
 ## Élőhelye {#habitat}
 

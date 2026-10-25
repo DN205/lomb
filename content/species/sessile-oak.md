@@ -42,11 +42,11 @@ clades = [
 ]
 +++
 
-A kocsánytalan tölgy a domb- és hegyvidéki lombos erdők egyik legfontosabb őshonos fája. Közeli rokona a kocsányos tölgynek, de annál szárazabb, savanyúbb termőhelyeken is megél, és makkja szinte ül a hajtáson.
+A kocsánytalan tölgy a domb- és hegyvidéki lombos erdők egyik legfontosabb [őshonos](@/glossary.md#oshonos) fája. Közeli rokona a kocsányos tölgynek, de annál szárazabb, savanyúbb termőhelyeken is megél, és makkja szinte ül a hajtáson.
 
 ## Megjelenése {#appearance}
 
-Levelei hosszúkásak, karéjosak, a kocsányos tölgyénél hosszabb nyélen ülnek, és őszi színeződésük barna, illetve aranybarna. Makktermése nagyon rövid kocsányon, szinte közvetlenül a hajtáson fejlődik. Kérge idősebb korában mélyen repedezett, szürkésbarna; koronája szabályos, boltozatos.
+Levelei hosszúkásak, karéjosak, a kocsányos tölgyénél hosszabb nyélen ülnek, és őszi színeződésük barna, illetve aranybarna. [Makktermése](@/glossary.md#makk) nagyon rövid kocsányon, szinte közvetlenül a hajtáson fejlődik. Kérge idősebb korában mélyen repedezett, szürkésbarna; koronája szabályos, boltozatos.
 
 ## Élőhelye {#habitat}
 

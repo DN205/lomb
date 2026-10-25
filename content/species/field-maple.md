@@ -46,7 +46,7 @@ A mezei juhar a hazai erdők kistermetű, gyakran bokrosodó juharfaja. Kis, lek
 
 ## Megjelenése {#appearance}
 
-Levelei kicsik, tenyeresen ötkaréjúak, lekerekített karéjokkal, ősszel aranysárgára színeződnek. Fiatal hajtásain gyakran parafás bordák futnak végig. Virágai zöldessárgák, lombfakadással egy időben nyílnak; termése ikerszárnyas.
+Levelei kicsik, tenyeresen ötkaréjúak, lekerekített [karéjokkal](@/glossary.md#karej), ősszel aranysárgára színeződnek. Fiatal hajtásain gyakran parafás bordák futnak végig. Virágai zöldessárgák, lombfakadással egy időben nyílnak; termése [ikerszárnyas](@/glossary.md#ikerszarnyas-termes).
 
 ## Élőhelye {#habitat}
 

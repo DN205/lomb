@@ -39,11 +39,11 @@ clades = [
 ]
 +++
 
-A kislevelű hárs a Kárpát-medence egyik leggyakoribb őshonos lombos fája. Karcsú, szabályos koronája és illatos nyári virágzása miatt parkokban, utcákon és erdőkben egyaránt kedvelt.
+A kislevelű hárs a Kárpát-medence egyik leggyakoribb [őshonos](@/glossary.md#oshonos) lombos fája. Karcsú, szabályos koronája és illatos nyári virágzása miatt parkokban, utcákon és erdőkben egyaránt kedvelt.
 
 ## Megjelenése {#appearance}
 
-Levelei szív alakúak, fűrészes szélűek, a nagylevelű hársénál kisebbek és simábbak. Kérge fiatalon szürke és sima, később hosszanti repedésekkel tagolt. Júniusban és júliusban nyílnak halványsárga, ernyőszerű virágzatai, amelyek jellegzetes, édes illatot árasztanak.
+Levelei szív alakúak, fűrészes szélűek, a nagylevelű hársénál kisebbek és simábbak. Kérge fiatalon szürke és sima, később hosszanti repedésekkel tagolt. Júniusban és júliusban nyílnak halványsárga, ernyőszerű [virágzatai](@/glossary.md#viragzat), amelyek jellegzetes, édes illatot árasztanak.
 
 ## Élőhelye {#habitat}
 

@@ -42,11 +42,11 @@ clades = [
 ]
 +++
 
-A zöld juhar Észak-Amerikából származó, gyorsan terjedő fafaj, amely Magyarországon az ártéri erdők egyik legagresszívabb inváziós növénye. Szárnyasan összetett leveleiről és zöld hajtásairól ismerhető fel.
+A zöld juhar Észak-Amerikából származó, gyorsan terjedő fafaj, amely Magyarországon az ártéri erdők egyik legagresszívabb [inváziós](@/glossary.md#invazios-faj) növénye. [Szárnyasan összetett](@/glossary.md#szarnyasan-osszetett-level) leveleiről és zöld hajtásairól ismerhető fel.
 
 ## Megjelenése {#appearance}
 
-Levelei szárnyasan összetettek, három-hét levélkéből állnak, világoszöldek, fűrészes szélűek. Fiatal hajtásai zöldek, viaszos bevonatúak. Termése ikerszárnyas, tavasszal érik.
+Levelei szárnyasan összetettek, három-hét levélkéből állnak, világoszöldek, fűrészes szélűek. Fiatal hajtásai zöldek, viaszos bevonatúak. Termése [ikerszárnyas](@/glossary.md#ikerszarnyas-termes), tavasszal érik.
 
 ## Élőhelye {#habitat}
 

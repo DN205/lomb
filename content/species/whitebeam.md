@@ -46,7 +46,7 @@ A lisztes berkenye a hazai hegyvidékek meleg, meszes lejtőinek ritka fája. Le
 
 ## Megjelenése {#appearance}
 
-Levelei kerekdedek, karéjosak, fonákjukon fehéren molyhosak, ezért lisztesnek tűnnek. Tavasszal fehér virágok nyílnak. Termése vörösbarna, pettyes alma, amely ősszel érik.
+Levelei kerekdedek, karéjosak, fonákjukon fehéren molyhosak, ezért lisztesnek tűnnek. Tavasszal fehér virágok nyílnak. Termése vörösbarna, pettyes [alma](@/glossary.md#almatermes), amely ősszel érik.
 
 ## Élőhelye {#habitat}
 
