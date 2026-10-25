@@ -138,7 +138,8 @@
             <svg class="verified-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
                 <path d="m5 12.5 4.5 4.5L19 7.5" />
             </svg>
-            <span><span class="verified-label">Verified by:</span> {{ page.extra.verified_by | default(value="AI") }}</span>
+            {% set reviewed_by_human = page.extra.verified_by | default(value="AI") == "Human" %}
+            <span><span class="verified-label">Ember ellenőrizte:</span> {% if reviewed_by_human %}Igen{% else %}Nem{% endif %}</span>
         </p>
     </aside>
 </article>
