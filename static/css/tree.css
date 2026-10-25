@@ -646,6 +646,45 @@ h1 {
     align-items: start;
 }
 
+.glossary-sheet {
+    grid-template-columns: minmax(11rem, 15rem) minmax(0, 1fr) minmax(9rem, 12rem);
+}
+
+.glossary-index ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 1.35;
+}
+
+.glossary-index li {
+    margin: 0 0 0.45rem;
+}
+
+.glossary-index a {
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+.glossary-topic + .glossary-topic {
+    margin-top: 1.1rem;
+    padding-top: 0.7rem;
+    border-top: 1px dashed color-mix(in srgb, var(--bark) 30%, transparent);
+}
+
+.glossary-topic-title {
+    margin: 0 0 0.4rem;
+    font-family: var(--font-heading);
+    font-size: 0.95rem;
+    color: var(--ink);
+}
+
+.glossary-index a:hover,
+.glossary-index a:focus-visible {
+    color: var(--oak);
+    border-bottom-color: currentColor;
+}
+
 .reference-page {
     max-width: 52rem;
     margin: 0;
@@ -683,6 +722,22 @@ h1 {
 
 .reference-body h2:first-child {
     margin-top: 0;
+}
+
+.glossary-sheet .reference-body h2 {
+    padding-bottom: 0.5rem;
+    border-bottom: 1px dashed color-mix(in srgb, var(--bark) 45%, transparent);
+}
+
+.reference-body h3 {
+    margin: 1.75rem 0 0.5rem;
+    font-family: var(--font-heading);
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.reference-body h2 + h3 {
+    margin-top: 0.75rem;
 }
 
 .reference-body p,
@@ -928,6 +983,21 @@ h1 {
         position: static;
         max-height: none;
         overflow: visible;
+    }
+
+    .glossary-sheet .reference-page {
+        order: 1;
+    }
+
+    .glossary-sheet .glossary-nav {
+        order: 2;
+        position: static;
+        max-height: none;
+        overflow: visible;
+    }
+
+    .glossary-sheet .status-box {
+        order: 3;
     }
 
     .site-footer-inner {
