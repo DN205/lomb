@@ -10,7 +10,9 @@ verified_by = "Human"
 family = "Szappanfafélék (Sapindaceae)"
 height = "15–20 m"
 lifespan = "100–200 év"
-distribution = "Kertészeti hibrid; csak telepítve fordul elő"
+
+[extra.distribution]
+other = ["Kertészeti hibrid; csak telepítve fordul elő"]
 
 [extra.linnaean]
 kingdom = "Növények (Plantae)"

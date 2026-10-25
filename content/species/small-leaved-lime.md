@@ -10,7 +10,9 @@ verified_by = "Human"
 family = "Mályvafélék (Malvaceae)"
 height = "15–25 m"
 lifespan = "300–500 év"
-distribution = "Európa mérsékelt öve; Magyarországon őshonos"
+
+[extra.distribution]
+native = ["Európa mérsékelt öve", "Magyarország"]
 
 [extra.linnaean]
 kingdom = "Növények (Plantae)"

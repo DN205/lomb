@@ -22,9 +22,13 @@ Zola 0.23.4 static site (Hungarian tree-species database). No Node, no package m
 
 ## Species front matter
 
-TOML between `+++`, not YAML. Alongside the `latin` / `english` / `verified_by` / `family` / `height` / `lifespan` / `distribution` scalars, every page carries two nested tables:
+TOML between `+++`, not YAML. Alongside the `latin` / `english` / `verified_by` / `family` / `height` / `lifespan` scalars, every page carries a `distribution` table and two taxonomy tables:
 
 ```toml
+[extra.distribution]
+native = ["A Balkán-félsziget"]
+other  = ["Európában széles körben telepített"]
+
 [extra.linnaean]
 kingdom  = "Növények (Plantae)"
 division = "Zárvatermők (Magnoliophyta)"
@@ -41,6 +45,7 @@ clades = ["Angiospermae", "Eudicotyledoneae", "Superrosidae", "Rosidae",
 ```
 
 - `linnaean` values are `"Hungarian (Latin)"`; `clades` are Latin-only, ordered broad → species (APG IV placement).
+- `distribution.native` lists native locations and `distribution.other` lists non-native occurrences such as ornamental plantings; either key may be omitted. Both render under the "Elterjedés" fact-box entry as `Őshonos` / `Egyéb előfordulás`; a legacy scalar `distribution` still renders as a single value.
 - `tree-page.html` renders both in the "Rendszertan" section and guards with `is defined`, so a new page without them still builds — but that silently drops the section.
 - `extra.family` is still used by the fact box; keep it in sync with `extra.linnaean.family`.
 - `extra.verified_by` feeds the right-hand status panel as `Verified by: <value>`; the template falls back to `AI` when the key is missing, so set `verified_by = "Human"` only once a person has actually reviewed the page.

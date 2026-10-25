@@ -10,7 +10,10 @@ verified_by = "Human"
 family = "Szappanfafélék (Sapindaceae)"
 height = "15–25 m"
 lifespan = "150–250 év"
-distribution = "A Balkán-félsziget; Európában széles körben telepített"
+
+[extra.distribution]
+native = ["A Balkán-félsziget"]
+other = ["Európában széles körben telepített"]
 
 [extra.linnaean]
 kingdom = "Növények (Plantae)"

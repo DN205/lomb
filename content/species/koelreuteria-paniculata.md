@@ -10,7 +10,10 @@ verified_by = "Human"
 family = "Szappanfafélék (Sapindaceae)"
 height = "8–15 m"
 lifespan = "60–150 év"
-distribution = "Kelet-Ázsia (Kína, Korea); Európában telepített díszfa"
+
+[extra.distribution]
+native = ["Kelet-Ázsia (Kína, Korea)"]
+other = ["Európában telepített díszfa"]
 
 [extra.linnaean]
 kingdom = "Növények (Plantae)"

@@ -28,9 +28,33 @@
             <dt>Életkor</dt>
             <dd>{{ page.extra.lifespan }}</dd>
             {% endif %}
-            {% if page.extra.distribution %}
+            {% if page.extra.distribution is string %}
             <dt>Elterjedés</dt>
             <dd>{{ page.extra.distribution }}</dd>
+            {% elif page.extra.distribution is defined %}
+            <dt>Elterjedés</dt>
+            <dd>
+                {% if page.extra.distribution.native %}
+                <div class="distribution-group">
+                    <p class="distribution-label">Őshonos</p>
+                    <ul class="distribution-list">
+                        {% for location in page.extra.distribution.native %}
+                        <li>{{ location }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+                {% if page.extra.distribution.other %}
+                <div class="distribution-group">
+                    <p class="distribution-label">Egyéb előfordulás</p>
+                    <ul class="distribution-list">
+                        {% for location in page.extra.distribution.other %}
+                        <li>{{ location }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+            </dd>
             {% endif %}
         </dl>
 
