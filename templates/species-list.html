@@ -4,7 +4,7 @@
     <input
         id="species-filter"
         type="search"
-        placeholder="Név vagy latin név…"
+        placeholder="Magyar, angol vagy latin név…"
         autocomplete="off"
         spellcheck="false"
         aria-controls="species-list"
@@ -15,7 +15,7 @@
 
 <ul id="species-list">
     {% for page in pages %}
-    <li data-search="{{ page.title }} {{ page.extra.latin | default(value='') }}">
+    <li data-search="{{ page.title }} {{ page.extra.english | default(value='') }} {{ page.extra.latin | default(value='') }}">
         <a href="{{ page.permalink | safe }}">
             <span class="species-name">{{ page.title }}</span>
             {% if page.extra.latin %}
