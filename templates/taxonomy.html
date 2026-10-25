@@ -19,14 +19,31 @@
         </div>
 
         {% if section.pages %}
-        <nav class="topic-list" aria-label="Rendszertani témák">
+        <h2 class="topic-group-title">Rendszerek</h2>
+        <nav class="topic-list topic-list-systems" aria-label="Rendszertani rendszerek">
             {% for topic in section.pages %}
+            {% if topic.extra.group == "system" %}
+            <a class="topic-card topic-card-featured" href="{{ topic.permalink | safe }}">
+                <span class="topic-title">{{ topic.title }}</span>
+                {% if topic.description %}
+                <span class="topic-description">{{ topic.description }}</span>
+                {% endif %}
+            </a>
+            {% endif %}
+            {% endfor %}
+        </nav>
+
+        <h2 class="topic-group-title">Rendszertani rangok</h2>
+        <nav class="topic-list" aria-label="Rendszertani rangok">
+            {% for topic in section.pages %}
+            {% if topic.extra.group == "rank" %}
             <a class="topic-card" href="{{ topic.permalink | safe }}">
                 <span class="topic-title">{{ topic.title }}</span>
                 {% if topic.description %}
                 <span class="topic-description">{{ topic.description }}</span>
                 {% endif %}
             </a>
+            {% endif %}
             {% endfor %}
         </nav>
         {% endif %}

@@ -5,6 +5,7 @@ date = 2026-10-25
 weight = 20
 
 [extra]
+group = "system"
 verified_by = "AI"
 +++
 

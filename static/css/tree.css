@@ -593,6 +593,40 @@ h1 {
     border-color: var(--oak);
 }
 
+.topic-group-title {
+    margin: 2.5rem 0 0;
+    padding-top: 1.5rem;
+    border-top: 1px dashed color-mix(in srgb, var(--bark) 45%, transparent);
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.topic-group-title + .topic-list {
+    margin-top: 0.75rem;
+    padding-top: 0;
+    border-top: 0;
+}
+
+.topic-list-systems {
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+}
+
+.topic-card-featured {
+    background: color-mix(in srgb, var(--oak) 9%, transparent);
+    border-style: solid;
+    border-color: var(--oak);
+}
+
+.topic-card-featured .topic-title {
+    color: var(--oak);
+}
+
+.topic-card-featured:hover,
+.topic-card-featured:focus-visible {
+    background: color-mix(in srgb, var(--oak) 16%, transparent);
+}
+
 .topic-title {
     font-family: var(--font-heading);
     font-size: 1.35rem;

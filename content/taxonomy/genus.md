@@ -5,6 +5,7 @@ date = 2026-10-25
 weight = 80
 
 [extra]
+group = "rank"
 verified_by = "AI"
 +++
 
