@@ -10,6 +10,7 @@ verified_by = "Human"
 family = "Bükkfafélék (Fagaceae)"
 height = "25–40 m"
 lifespan = "400–600 év"
+origin = "Európa"
 
 [extra.distribution]
 native = ["Európa sík- és dombvidéke"]

@@ -17,9 +17,22 @@
     {% for page in pages %}
     <li data-search="{{ page.title }} {{ page.extra.english | default(value='') }} {{ page.extra.latin | default(value='') }}">
         <a href="{{ page.permalink | safe }}">
-            <span class="species-name">{{ page.title }}</span>
-            {% if page.extra.latin %}
-            <span class="latin">{{ page.extra.latin }}</span>
+            <span class="species-primary">
+                <span class="species-name">{{ page.title }}</span>
+                <span class="species-names">
+                    {% if page.extra.english %}
+                    <span class="species-english">{{ page.extra.english }}</span>
+                    {% endif %}
+                    {% if page.extra.latin %}
+                    <span class="latin">{{ page.extra.latin }}</span>
+                    {% endif %}
+                </span>
+            </span>
+            {% if page.extra.origin %}
+            <span class="species-origin">
+                <span class="species-origin-label">Származás</span>
+                <span class="species-origin-value">{{ page.extra.origin }}</span>
+            </span>
             {% endif %}
         </a>
     </li>
