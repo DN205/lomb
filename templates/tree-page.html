@@ -68,31 +68,31 @@
                 <dl>
                     {% if page.extra.linnaean.kingdom %}
                     <dt>Ország</dt>
-                    <dd>{{ page.extra.linnaean.kingdom }}</dd>
+                    <dd><a href="{{ get_url(path='@/taxonomy/kingdom.md') }}">{{ page.extra.linnaean.kingdom }}</a></dd>
                     {% endif %}
                     {% if page.extra.linnaean.division %}
                     <dt>Törzs</dt>
-                    <dd>{{ page.extra.linnaean.division }}</dd>
+                    <dd><a href="{{ get_url(path='@/taxonomy/phylum.md') }}">{{ page.extra.linnaean.division }}</a></dd>
                     {% endif %}
                     {% if page.extra.linnaean.class %}
                     <dt>Osztály</dt>
-                    <dd>{{ page.extra.linnaean.class }}</dd>
+                    <dd><a href="{{ get_url(path='@/taxonomy/class.md') }}">{{ page.extra.linnaean.class }}</a></dd>
                     {% endif %}
                     {% if page.extra.linnaean.order %}
                     <dt>Rend</dt>
-                    <dd>{{ page.extra.linnaean.order }}</dd>
+                    <dd><a href="{{ get_url(path='@/taxonomy/order.md') }}">{{ page.extra.linnaean.order }}</a></dd>
                     {% endif %}
                     {% if page.extra.linnaean.family %}
                     <dt>Család</dt>
-                    <dd>{{ page.extra.linnaean.family }}</dd>
+                    <dd><a href="{{ get_url(path='@/taxonomy/family.md') }}">{{ page.extra.linnaean.family }}</a></dd>
                     {% endif %}
                     {% if page.extra.linnaean.genus %}
                     <dt>Nemzetség</dt>
-                    <dd>{{ page.extra.linnaean.genus }}</dd>
+                    <dd><a href="{{ get_url(path='@/taxonomy/genus.md') }}">{{ page.extra.linnaean.genus }}</a></dd>
                     {% endif %}
                     {% if page.extra.linnaean.species %}
                     <dt>Faj</dt>
-                    <dd>{{ page.extra.linnaean.species }}</dd>
+                    <dd><a href="{{ get_url(path='@/taxonomy/species.md') }}">{{ page.extra.linnaean.species }}</a></dd>
                     {% endif %}
                 </dl>
             </div>
