@@ -10,7 +10,7 @@ verified_by = "AI"
 
 ## Mi a Lomb?
 
-A Lomb magyarországi fafajok adatbázisa: ismeretterjesztő adatlapok a hazai erdők, parkok és fasorok fáiról. A cél, hogy egy helyen legyen elérhető az egyes fajok megjelenése, élőhelye, elterjedése és rendszertani helye.
+A Lomb fafajok adatbázisa: ismeretterjesztő adatlapok erdők, parkok és fasorok fáiról. A cél, hogy egy helyen legyen elérhető az egyes fajok megjelenése, élőhelye, elterjedése és rendszertani helye.
 
 ## Kinek készül?
 

@@ -2,7 +2,7 @@
 
 ## Project
 
-Zola 0.23.4 static site (Hungarian tree-species database). No Node, no package manager, no test or lint suite — `zola check` is the only verification. Git repo on `main`; `public/` and `.DS_Store` are ignored.
+Zola 0.23.4 static site (Hungarian-language tree-species database). No Node, no package manager, no test or lint suite — `zola check` is the only verification. Git repo on `main`; `public/` and `.DS_Store` are ignored.
 
 ## Commands
 

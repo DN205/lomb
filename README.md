@@ -1,6 +1,6 @@
 # Lomb
 
-Lomb is a Hungarian-language database of tree species found in Hungary. It collects fact sheets on native and introduced trees, a botanical glossary, an introduction to taxonomy, and the background of the data behind the site.
+Lomb is a Hungarian-language database of trees. It collects fact sheets on native and introduced trees, a botanical glossary, an introduction to taxonomy, and the background of the data behind the site.
 
 The site is built with [Zola](https://www.getzola.org/) and deployed to GitHub Pages.
 

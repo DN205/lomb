@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#e7e9de" />
         <title>{% block title %}Lomb{% endblock %}</title>
-        <meta name="description" content="{% block description %}Lomb – magyarországi fafajok adatbázisa.{% endblock %}" />
+        <meta name="description" content="{% block description %}Lomb – fafajok adatbázisa.{% endblock %}" />
         <link rel="stylesheet" href="{{ get_url(path='css/tree.css') }}" />
         {% block extra_head %}{% endblock %}
     </head>
@@ -31,7 +31,7 @@
         <footer class="site-footer">
             <div class="site-footer-inner">
                 <div class="site-footer-info">
-                    <p class="site-footer-brand">Lomb — magyarországi fafajok adatbázisa</p>
+                    <p class="site-footer-brand">Lomb — fafajok adatbázisa</p>
                     <p class="site-footer-meta">Tartalom: CC BY-NC-SA 4.0 · Kód: MIT · © {{ now() | date(format="%Y") }} HDan</p>
                     <p class="site-footer-note">Az adatokat AI segítségével készítettem, emberi átnézéssel.</p>
                 </div>

@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block title %}{{ page.title }} · Lomb{% endblock %}
-{% block description %}{{ page.description | default(value="Lomb – magyarországi fafajok adatbázisa") }}{% endblock %}
+{% block description %}{{ page.description | default(value="Lomb – fafajok adatbázisa") }}{% endblock %}
 
 {% block content %}
 {% set taxonomySection = get_section(path="taxonomy/_index.md") %}
