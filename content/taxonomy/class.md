@@ -1,6 +1,6 @@
 +++
-title = "Osztály – Kétszikűek (Magnoliopsida)"
-description = "Az osztály a kétszikűeket (Magnoliopsida) jelöli: olyan zárvatermőket, amelyeknek két sziklevele, hálózatos levélerezete és gyakran négyes vagy ötös virága van."
+title = "Osztály"
+description = "Az osztály a törzs alatti rang: a törzsön belüli nagy csoportokat fogja össze, amelyek testfelépítésükben és szaporodásukban közös vonásokat mutatnak."
 date = 2026-10-25
 weight = 50
 
@@ -9,25 +9,26 @@ group = "rank"
 verified_by = "AI"
 +++
 
-Az **osztály** (classis) a törzs alatti rang. A zárvatermők törzsén belül a hagyományos Linnéi rendszer két nagy osztályt különböztet meg: a kétszikűeket (Magnoliopsida) és az egyszikűeket (Liliopsida).
+Az **osztály** (classis) a törzs alatti rang. Az osztály a törzsön belüli nagy csoportokat jelöli, amelyeket elsősorban a testfelépítés és a szaporodás közös vonásai tartanak össze.
 
 ## Mit jelent az osztály rangja?
 
-Az osztály a törzsön belüli nagy csoportokat jelöli. A kétszikűek és az egyszikűek elkülönítése már a 17. századi botanikusok munkáiban megjelent, és a Linnéi rendszer egyik legfontosabb tagolása lett. A kétszikűek közé tartozik a fás szárú növények nagy része, köztük sok ismert fa és cserje.
+Az osztályok elkülönítése már a 17. századi botanikusok munkáiban megjelent, és a Linnéi rendszer egyik legfontosabb tagolása lett. A növényeknél a hagyományos rendszer a zárvatermőket két nagy osztályra bontja: a kétszikűekre (Magnoliopsida) és az egyszikűekre (Liliopsida). Más törzsekben, például a nyitvatermőknél vagy a harasztoknál, az osztályok száma és neve eltér.
 
-Fontos azonban, hogy a kétszikűek a modern kladisztikában nem monofiletikus csoport: a „kétszikűek” több különálló leszármazási vonalat fognak össze. Az APG IV rendszer ezért a valódi kétszikűeket (eudicots) és a bazális kétszikűeket külön kládokként kezeli. A Magnoliopsida hagyományos rang, amelyet a Linnéi rendszer használ.
+Az osztály neve a növényeknél gyakran -opsida végződésű (Magnoliopsida, Liliopsida), de a nevezéktan nem ír elő egységes végződést minden csoportra.
 
-## A kétszikűek jellemzői
+## A kétszikűek és az egyszikűek
 
-- Két sziklevél: a csíra első levelei párosával jelennek meg.
-- Hálózatos levélerezet: az erek elágaznak, és a levél széle gyakran [karéjos](@/glossary.md#karej) vagy fűrészes.
-- Virágok: a virágtakaró levelei rendszerint négyes vagy ötös csoportokban állnak; a porzók száma gyakran 4, 5, 8 vagy 10.
-- Szállítószövet: a szárban a szállítókötegek gyűrűben rendeződnek, és a legtöbb fás szárú kétszikűnél másodlagos vastagodás (kambium) alakul ki.
-- Gyökérzet: gyakran főgyökér-rendszer, erős karógyökérrel.
-- A fák és cserjék többsége kétszikű; az egyszikűek között viszont alig akad valódi fa, a pálmák és a bambuszok más módon vastagodnak.
+- **Sziklevél:** a kétszikűek csírájában két sziklevél, az egyszikűekében egy fejlődik.
+- **Levélerezet:** a kétszikűeknél rendszerint hálózatos, az egyszikűeknél párhuzamos.
+- **Virágok:** a kétszikűek virágtakarója gyakran négyes vagy ötös, az egyszikűeké hármas.
+- **Szállítószövet:** a kétszikűek szárában a szállítókötegek gyűrűben állnak, és sok fajnál másodlagos vastagodás alakul ki; az egyszikűeknél ez rendszerint hiányzik.
+- **Fás szárúak:** a fák és cserjék többsége kétszikű, de az egyszikűek között is akadnak fás szárúak, például a pálmák.
+
+Fontos azonban, hogy a kétszikűek a modern kladisztikában nem monofiletikus csoport: több különálló leszármazási vonalat fognak össze. Az APG IV rendszer ezért a valódi kétszikűeket (eudicots) és a bazális kétszikűeket külön kládokként kezeli. A Magnoliopsida hagyományos rang, amelyet a Linnéi rendszer használ.
 
 ## Kapcsolódó oldalak
 
-- [Törzs – Zárvatermők (Magnoliophyta)](@/taxonomy/phylum.md)
-- [Rend – Bükkfavirágúak (Fagales)](@/taxonomy/order.md)
+- [Törzs](@/taxonomy/phylum.md)
+- [Rend](@/taxonomy/order.md)
 - [Linnéi rendszertan](@/taxonomy/linnea.md)

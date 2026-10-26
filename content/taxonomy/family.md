@@ -1,6 +1,6 @@
 +++
-title = "Család – Bükkfafélék (Fagaceae)"
-description = "A család a bükkfaféléket (Fagaceae) jelöli: egyszerű levelű, kupacsos termésű fákat és cserjéket, köztük a bükköt, a tölgyet és a gesztenyét."
+title = "Család"
+description = "A család a rend alatti rang: a renden belüli, közeli rokon nemzetségeket fogja össze, és viszonylag stabil határokkal rendelkezik."
 date = 2026-10-25
 weight = 70
 
@@ -9,24 +9,29 @@ group = "rank"
 verified_by = "AI"
 +++
 
-A **család** (familia) a rend alatti rang. A bükkfafélék családja (Fagaceae) olyan fákat és cserjéket fog össze, amelyek egyszerű levelűek, egyivarú virágúak, és termésüket [kupacs](@/glossary.md#kupacs) védi. Ide tartozik a bükk, a tölgy és a gesztenye.
+A **család** (familia) a rend alatti rang. A család a renden belüli, közeli rokon nemzetségeket fogja össze.
 
 ## Mit jelent a család rangja?
 
-A család a renden belüli, közeli rokon nemzetségeket fogja össze. A növények családnevei egységesen -aceae végződésűek (Fagaceae), a magyar nevek pedig -félék toldalékot kapnak (bükkfafélék). A család a Linnéi rendszer egyik legstabilabb rangja: a nemzetségek és fajok átrendeződhetnek, de a családok határai viszonylag jól körülhatároltak.
+A növények családnevei egységesen -aceae végződésűek (Fagaceae, Rosaceae, Salicaceae), a magyar nevek pedig -félék toldalékot kapnak (bükkfafélék, rózsafélék, fűzfélék). A család a Linnéi rendszer egyik legstabilabb rangja: a nemzetségek és fajok átrendeződhetnek, de a családok határai viszonylag jól körülhatároltak.
 
-A Fagaceae család mintegy 900–1000 fajt számlál, és főleg az északi félteke mérsékelt övében, valamint Délkelet-Ázsia hegyvidéki trópusi erdeiben terjedt el. Fő nemzetségei a bükk (Fagus), a tölgy (Quercus), a gesztenye (Castanea), valamint a Castanopsis és a Lithocarpus.
+A családok mérete nagyon eltérő: egyesek néhány nemzetséget, mások több százat fognak össze. A családok száma és határa a rendszerezés módjától függ, és a molekuláris adatok nyomán időnként módosul.
 
-## A bükkfafélék jellemzői
+## Példák a rendszertanból
 
-- Fák vagy cserjék; váltakozó állású, egyszerű levelek, ép vagy [karéjos](@/glossary.md#karej) széllel; pálhák.
-- Egyivarú virágok: a porzós virágok barkában, a termős virágok aprók; a szél porozza be őket.
-- Kupacsos termés: a [makk](@/glossary.md#makk) vagy a kupacsos termés tövét pikkelyes vagy bozontos kupacs veszi körül, amely a fejlődő termést védi.
-- Ektomikorrhiza: a család fajai talajgombákkal élnek szimbiózisban.
-- Kemény, tartós fa és tanninok: a tölgyek és a bükkök faanyaga évszázadok óta értékes; kérgük cserzőanyagot tartalmaz.
+- A bükkfafélék (Fagaceae) egyszerű levelű, kupacsos termésű fákat és cserjéket fognak össze.
+- A rózsafélék (Rosaceae) közé sorolják az alma, a körte, a cseresznye és a rózsa nemzetségét.
+- A fűzfafélék (Salicaceae) közé tartoznak a fűzek és a nyárak.
+- A fenyőfélék (Pinaceae) a nyitvatermők egyik legnagyobb családja.
+
+## Hogyan ismerhető fel?
+
+- A család szintjén a virág, a termés és a levél felépítése adja a legfontosabb közös jegyeket.
+- Egy családon belül a nemzetségek és a fajok tagolják a csoportot.
+- A családnevek végződése segít a tájékozódásban, de a besorolás nem a névből, hanem a rokonságból következik.
 
 ## Kapcsolódó oldalak
 
-- [Rend – Bükkfavirágúak (Fagales)](@/taxonomy/order.md)
+- [Rend](@/taxonomy/order.md)
 - [Nemzetség](@/taxonomy/genus.md)
 - [Linnéi rendszertan](@/taxonomy/linnea.md)

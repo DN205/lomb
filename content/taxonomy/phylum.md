@@ -1,6 +1,6 @@
 +++
-title = "Törzs – Zárvatermők (Magnoliophyta)"
-description = "A törzs a zárvatermőket (Magnoliophyta) fogja össze: azokat a növényeket, amelyek virágot nevelnek, és magvaikat zárt magház, majd termés védi."
+title = "Törzs"
+description = "A törzs az ország alatti rang: az országon belüli nagy, alapvető testfelépítésű csoportokat fogja össze."
 date = 2026-10-25
 weight = 40
 
@@ -9,26 +9,23 @@ group = "rank"
 verified_by = "AI"
 +++
 
-A **törzs** (divisio) az ország alatti rang. A növényeknél a törzs és a divízió ugyanazt a szintet jelöli; a magyar szakirodalomban mindkét elnevezés előfordul. A zárvatermők törzse (Magnoliophyta) a növények legnagyobb és legváltozatosabb csoportja.
+A **törzs** (divisio) az ország alatti rang. A növényeknél a törzs és a divízió ugyanazt a szintet jelöli; a magyar szakirodalomban mindkét elnevezés előfordul.
 
 ## Mit jelent a törzs rangja?
 
-A törzs az országot osztja nagyobb csoportokra. A növények országán belül a fő törzsek közé tartoznak a mohák (Bryophyta), a harasztok (Pteridophyta), a nyitvatermők (Pinophyta) és a zárvatermők (Magnoliophyta). A zárvatermők a legfiatalabb és legnagyobb törzs: mintegy 300 000 ismert faj tartozik ide.
+A törzs az országot osztja nagyobb csoportokra. A növények országán belül a fő törzsek közé tartoznak a mohák (Bryophyta), a harasztok (Pteridophyta), a nyitvatermők (Pinophyta) és a zárvatermők (Magnoliophyta). A törzsek száma és határa a rendszerezés módjától függ; a molekuláris vizsgálatok több hagyományos csoportot összevontak vagy szétválasztottak.
 
-A törzs neve a növényeknél gyakran -phyta végződésű (Magnoliophyta, Pinophyta), de ez nem kötelező érvényű szabály.
+A törzs neve a növényeknél gyakran -phyta végződésű (Bryophyta, Pinophyta), de ez nem kötelező érvényű szabály.
 
-## A zárvatermők jellemzői
+## Mi jellemzi a törzseket?
 
-- Virág: a zárvatermők virágot nevelnek; a virágban porzók és termő, valamint takarólevelek (szirom- és csészelevelek) vannak. A virág lehet egyivarú vagy kétivarú, és virágzatba tömörülhet, például [barkába](@/glossary.md#barka).
-- Zárt magház: a magkezdemények a magház belsejében fejlődnek, amelyből termés lesz. A magvak így védve vannak, és a termés segíti a terjesztésüket.
-- Kettős megtermékenyítés: az egyik hímivarsejt a petesejttel egyesül, a másik a központi sejtmagokkal; így jön létre a triploid endospermium, amely a csírát táplálja.
-- Szállítószövet: a zárvatermők xilémje edényeket is tartalmaz, ami hatékonyabb vízszállítást tesz lehetővé, mint a nyitvatermők tracheidái.
-- Rendkívüli változatosság: lágyszárúaktól a hatalmas fákig; a fás szárúak másodlagos vastagodással növekednek.
-
-A zárvatermők korszerű, molekuláris adatokon alapuló felosztása az APG IV rendszer, amely kládokat használ. A Magnoliophyta hagyományos, Linnéi rang, amely ezt a nagy csoportot jelöli.
+- A törzs szintjén a csoportokat a testfelépítés alapvető vonásai különítik el, például a szállítószövet jelenléte vagy a magvak védelme.
+- Egy törzsön belül az osztályok, rendek és további rangok tagolják a csoportot.
+- A törzsek mérete nagyon eltérő: a zárvatermők mintegy 300 000 ismert fajt számlálnak, míg más törzsek jóval kevesebbet.
+- A hagyományos és a kladisztikus felosztás nem mindig esik egybe; a törzs a Linnéi rendszer rangja, amelyet a kladisztika kládokkal helyettesít vagy egészít ki.
 
 ## Kapcsolódó oldalak
 
-- [Ország – Növények (Plantae)](@/taxonomy/kingdom.md)
-- [Osztály – Kétszikűek (Magnoliopsida)](@/taxonomy/class.md)
+- [Ország](@/taxonomy/kingdom.md)
+- [Osztály](@/taxonomy/class.md)
 - [Linnéi rendszertan](@/taxonomy/linnea.md)
