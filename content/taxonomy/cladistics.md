@@ -25,4 +25,4 @@ Ez a sor nem rangokat jelöl, hanem egymásba ágyazott kládokat. A kládok szi
 
 A kladisztika nem törli el a Linnéi rangokat, de a hangsúlyt a leszármazási vonalakra helyezi. A zárvatermők korszerű, molekuláris adatokon alapuló besorolása az APG IV rendszer, amely kládokat használ a hagyományos rangok helyett vagy mellett.
 
-A fajok adatlapján a „Rendszertan” panel „Kladisztikus rendszertan” blokkja ezt a kládsort mutatja. A hagyományos rangokról a [Linnéi rendszertan](@/taxonomy/linnea.md) oldalon olvashatsz.
+A fajok adatlapján a „Rendszertan” panel „Kladisztikus rendszertan” blokkja a fajra jellemző kládsort mutatja. A hagyományos rangokról a [Linnéi rendszertan](@/taxonomy/linnea.md) oldalon olvashatsz.
