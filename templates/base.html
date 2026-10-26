@@ -10,7 +10,7 @@
         {% block extra_head %}{% endblock %}
     </head>
 
-    <body class="{% block body_class %}{% endblock %}">
+    <body class="{% block body_class %}{% endblock %}{% if current_path != "/" %} has-home-button{% endif %}">
         <a class="skip-link" href="#main-content">Ugrás a tartalomra</a>
 
         <main id="main-content">
