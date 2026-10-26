@@ -12,7 +12,10 @@
             {% for topic in page.toc %}
             {% if topic.children %}
             <div class="glossary-topic">
-                <p class="glossary-topic-title">{{ topic.title }}</p>
+                <p class="glossary-topic-title">
+                    <span>{{ topic.title }}</span>
+                    <span class="glossary-topic-count" aria-hidden="true">{{ topic.children | length }}</span>
+                </p>
                 <ul>
                     {% for entry in topic.children %}
                     <li><a href="#{{ entry.id }}">{{ entry.title }}</a></li>
