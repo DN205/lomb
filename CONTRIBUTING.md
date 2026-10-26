@@ -53,13 +53,13 @@ Keep `extra.family` identical to `extra.linnaean.family`. Use en-dash ranges (`1
 - Set `verified_by = "AI"` unless a person has actually read the page.
 - Set `verified_by = "Human"` only after a thorough factual review, including the taxonomy, measurements, distribution and Hungarian wording.
 - The status panel is generated from this value; do not fake it.
-- The species text must be traceable to the online databases listed on the Hivatkozások page. Do not add books or papers that were not consulted.
+- The species text must be traceable to the literature and online databases listed on the Hivatkozások page. Do not add books or papers that were not consulted.
 
 ## Editing taxonomy, glossary or sources
 
 - Taxonomy pages live in `content/taxonomy/`. The seven rank pages are generic explanations of a rank — keep them free of a single example species so they stay neutral.
 - The glossary (`content/glossary.md`) is grouped under `##` headings; every entry needs a `###` heading with a unique `{#anchor}` id, because articles link to it.
-- The sources section (`content/sources/`) explains external linking and lists the online databases. The literature list was intentionally removed; do not restore unread references.
+- The sources section (`content/sources/`) explains external linking and lists the consulted literature and online databases. Only add references that were actually used.
 
 ## Style guide
 

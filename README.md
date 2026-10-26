@@ -93,7 +93,7 @@ Notes on the front matter:
 - All visible copy is Hungarian. Filenames, front-matter keys, CSS classes, ids and JavaScript identifiers are English.
 - Use en-dash ranges (`15–25 m`) and Hungarian quotes („…”).
 - Internal links use Zola's `@/path.md` syntax; the build fails on broken ones.
-- Keep claims traceable to the online databases listed on the Hivatkozások page. The literature list was removed intentionally; do not reintroduce sources that were not actually consulted.
+- Keep claims traceable to the literature and online databases listed on the Hivatkozások page. Do not add sources that were not actually consulted.
 
 ## Licensing
 

@@ -1,6 +1,6 @@
 +++
 title = "Hivatkozások"
-description = "A Lomb fajlapjainak hátterében álló online adatbázisok, valamint a mesterséges intelligencia használatának szabályai."
+description = "A Lomb fajlapjainak hátterében álló szakirodalom és online adatbázisok, valamint a mesterséges intelligencia használatának szabályai."
 date = 2026-10-25
 weight = 10
 
@@ -8,7 +8,11 @@ weight = 10
 verified_by = "AI"
 +++
 
-A fajlapok szövegei saját megfogalmazásban, az alábbi online adatbázisok alapján készültek. A lista nem teljes: az egyes fajoknál további, a fajra vonatkozó adatbázisokat is figyelembe veszünk.
+A fajlapok szövegei saját megfogalmazásban, az alábbi szakirodalom és online adatbázisok alapján készültek. A lista nem teljes: az egyes fajoknál további, a fajra vonatkozó forrásokat is figyelembe veszünk.
+
+## Szakirodalom
+
+- David More, Alastair Fitter: *Fák*. Fürkész könyvek, Budapest, 1986.
 
 ## Online adatbázisok
 
@@ -27,7 +31,7 @@ A külső oldalak tartalmáért és elérhetőségéért a Lomb nem vállal fele
 A Lomb szövegeinek előkészítéséhez nyelvi modellt is használunk. Az AI segít a vázlat elkészítésében, a fogalmazásban és a szerkezet kialakításában; a tényeket, a neveket, a méreteket és az elterjedési adatokat a fenti forrásokhoz ellenőrizzük.
 
 - **Emberi ellenőrzés.** Minden fajlap „Állapot” panelje jelzi, hogy az oldalt ellenőrizte-e már ember. Ha ott az szerepel, hogy „Ember ellenőrizte: Nem”, a szöveget még nem nézte át szakember, ezért előfordulhat benne hiba.
-- **Nem hiteles forrás.** Az AI által javasolt szöveget nem tekintjük önálló forrásnak. A fajlapokon szereplő állítások háttérforrása a fenti adatbázisok valamelyike.
+- **Nem hiteles forrás.** Az AI által javasolt szöveget nem tekintjük önálló forrásnak. A fajlapokon szereplő állítások háttérforrása a fenti szakirodalom és adatbázisok valamelyike.
 - **Saját megfogalmazás.** A célunk, hogy a szövegek saját megfogalmazásban, ismeretterjesztő stílusban szülessenek. Nem másolunk be szerzői jogvédelem alatt álló szövegrészeket, és nem használunk AI-t arra, hogy idegen szövegeket álcázzunk sajátként.
 - **Képek és ábrák.** A Lomb jelenleg nem használ mesterséges intelligenciával előállított képeket vagy illusztrációkat.
 - **Hibák jelzése.** Ha egy adat ellentmond a felsorolt forrásoknak, a forrás élvez elsőbbséget. Az oldalak szerkesztésekor a hibákat igyekszünk javítani, és szükség esetén a forráslistát is frissítjük.
