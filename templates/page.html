@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} · Lomb{% endblock %}
+{% block description %}{{ page.description | default(value="Lomb – magyarországi fafajok adatbázisa") }}{% endblock %}
+
+{% block content %}
+<div class="reference-sheet">
+    <article class="reference-page">
+        <header class="page-header">
+            <p class="eyebrow">Lomb</p>
+            <h1>{{ page.title }}</h1>
+            {% if page.description %}
+            <p class="lead">{{ page.description }}</p>
+            {% endif %}
+        </header>
+
+        <div class="reference-body">
+            {{ page.content | safe }}
+        </div>
+    </article>
+
+    <aside class="fact-box status-box" aria-label="Az oldal állapota">
+        <h2 class="fact-box-title">Állapot</h2>
+        <dl>
+            <dt>Utolsó frissítés</dt>
+            <dd><time datetime="{{ page.date }}">{{ page.date | date(format="%Y. %m. %d.") }}</time></dd>
+        </dl>
+        <p class="verified">
+            <svg class="verified-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="m5 12.5 4.5 4.5L19 7.5" />
+            </svg>
+            {% set reviewed_by_human = page.extra.verified_by | default(value="AI") == "Human" %}
+            <span><span class="verified-label">Ember ellenőrizte:</span> {% if reviewed_by_human %}Igen{% else %}Nem{% endif %}</span>
+        </p>
+    </aside>
+</div>
+{% endblock content %}

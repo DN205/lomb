@@ -30,8 +30,16 @@
 
         <footer class="site-footer">
             <div class="site-footer-inner">
-                <p>Lomb — magyarországi fafajok adatbázisa</p>
-                <p>{{ now() | date(format="%Y") }}</p>
+                <div class="site-footer-info">
+                    <p class="site-footer-brand">Lomb — magyarországi fafajok adatbázisa</p>
+                    <p class="site-footer-meta">Tartalom: CC BY-NC-SA 4.0 · Kód: MIT · © {{ now() | date(format="%Y") }} HDan</p>
+                    <p class="site-footer-note">Az adatokat AI segítségével készítettem, emberi átnézéssel.</p>
+                </div>
+                <nav class="site-footer-nav" aria-label="Oldalak és külső hivatkozások">
+                    <a href="https://github.com/DN205/lomb">GitHub</a>
+                    <a href="{{ get_url(path='@/privacy.md') }}">Adatvédelem</a>
+                    <a href="{{ get_url(path='@/about.md') }}">Névjegy</a>
+                </nav>
             </div>
         </footer>
 
