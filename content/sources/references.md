@@ -1,6 +1,6 @@
 +++
 title = "Hivatkozások"
-description = "A Lomb fajlapjainak háttérirodalma, a felhasznált online adatbázisok, valamint a mesterséges intelligencia használatának szabályai."
+description = "A Lomb fajlapjainak hátterében álló online adatbázisok, valamint a mesterséges intelligencia használatának szabályai."
 date = 2026-10-25
 weight = 10
 
@@ -8,15 +8,7 @@ weight = 10
 verified_by = "AI"
 +++
 
-A fajlapok szövegei saját megfogalmazásban, az alábbi szakirodalom és adatbázisok alapján készültek. A lista nem teljes: az egyes fajoknál további, a fajra vonatkozó közleményeket is figyelembe veszünk.
-
-## Szakirodalom
-
-- Bartha Dénes: *Magyarország fa- és cserjefajai*. Mezőgazda Kiadó, Budapest, 1999.
-- Bartha Dénes: *Dendrológia*. Egyetemi jegyzet, Soproni Egyetem, Sopron.
-- Bartha Dénes, Király Gergely, Schmidt Dávid és Tiborcz Viktor (szerk.): *Magyarország edényes növényfajainak elterjedési atlasza*. Nyugat-magyarországi Egyetem Kiadó, Sopron, 2015.
-- Király Gergely (szerk.): *Új magyar füvészkönyv. Magyarország hajtásos növényei*. Aggteleki Nemzeti Park Igazgatóság, Jósvafő, 2009.
-- Simon Tibor: *A magyarországi edényes flóra határozója*. Nemzeti Tankönyvkiadó, Budapest, 1992.
+A fajlapok szövegei saját megfogalmazásban, az alábbi online adatbázisok alapján készültek. A lista nem teljes: az egyes fajoknál további, a fajra vonatkozó adatbázisokat is figyelembe veszünk.
 
 ## Online adatbázisok
 
@@ -35,7 +27,7 @@ A külső oldalak tartalmáért és elérhetőségéért a Lomb nem vállal fele
 A Lomb szövegeinek előkészítéséhez nyelvi modellt is használunk. Az AI segít a vázlat elkészítésében, a fogalmazásban és a szerkezet kialakításában; a tényeket, a neveket, a méreteket és az elterjedési adatokat a fenti forrásokhoz ellenőrizzük.
 
 - **Emberi ellenőrzés.** Minden fajlap „Állapot” panelje jelzi, hogy az oldalt ellenőrizte-e már ember. Ha ott az szerepel, hogy „Ember ellenőrizte: Nem”, a szöveget még nem nézte át szakember, ezért előfordulhat benne hiba.
-- **Nem hiteles forrás.** Az AI által javasolt szöveget nem tekintjük önálló forrásnak. A fajlapokon szereplő állítások háttérforrása a fenti irodalom és adatbázisok valamelyike.
+- **Nem hiteles forrás.** Az AI által javasolt szöveget nem tekintjük önálló forrásnak. A fajlapokon szereplő állítások háttérforrása a fenti adatbázisok valamelyike.
 - **Saját megfogalmazás.** A célunk, hogy a szövegek saját megfogalmazásban, ismeretterjesztő stílusban szülessenek. Nem másolunk be szerzői jogvédelem alatt álló szövegrészeket, és nem használunk AI-t arra, hogy idegen szövegeket álcázzunk sajátként.
 - **Képek és ábrák.** A Lomb jelenleg nem használ mesterséges intelligenciával előállított képeket vagy illusztrációkat.
 - **Hibák jelzése.** Ha egy adat ellentmond a felsorolt forrásoknak, a forrás élvez elsőbbséget. Az oldalak szerkesztésekor a hibákat igyekszünk javítani, és szükség esetén a forráslistát is frissítjük.
