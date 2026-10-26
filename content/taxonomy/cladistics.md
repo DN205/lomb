@@ -15,22 +15,11 @@ A kladisztika a rokonsági kapcsolatokat közös ősök alapján ábrázolja. Eg
 
 A kladisztikus rendszertan ezért nem pontosan ugyanazokat a csoportokat használja, mint a Linnéi rangok. A hangsúly a leszármazási vonalakon van: két faj annál közelebbi rokon, minél későbbi közös ősük van.
 
-## Kládok a tölgy példáján
+## A kládok egymásba ágyazódása
 
-A kocsányos tölgy helye a zárvatermők kládjában, a legtágabbtól a legszűkebbig:
+A kládok egymásba ágyazódnak: minden klád része egy nagyobb kládnak, egészen az összes zárvatermőt magába foglaló kládig. Egy faj besorolása ezért nem egyetlen klád, hanem kládok sorozata: a faj a nemzetség kládjának, az a családénak, az pedig további, egyre tágabb kládoknak a része.
 
-- Angiospermae
-- Eudicotyledoneae
-- Superrosidae
-- Rosidae
-- Fabidae
-- Fagales
-- Fagaceae
-- Quercoideae
-- Quercus
-- Quercus robur
-
-Ez a sor nem rangokat jelöl, hanem egymásba ágyazott kládokat. A *Quercus robur* például a *Quercus* nemzetség része, az pedig a Fagaceae családé, és így tovább.
+Ez a sor nem rangokat jelöl, hanem egymásba ágyazott kládokat. A kládok szintjei nem felelnek meg egy az egyben a Linnéi rangoknak: egy klád lehet egy nemzetségnél szűkebb vagy egy családnál tágabb is, attól függően, hol húzódnak a leszármazási vonalak.
 
 ## Linnéi rangok és kládok
 

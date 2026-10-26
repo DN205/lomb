@@ -9,7 +9,7 @@ group = "rank"
 verified_by = "AI"
 +++
 
-A **rend** (ordo) az osztály alatti rang. A bükkfavirágúak rendje (Fagales) olyan fás szárú növényeket fog össze, amelyek virágai rendszerint egyivarúak és [barkában](@/glossary.md#barka) állnak, termésük pedig [makk](@/glossary.md#makk), [kupacsos](@/glossary.md#kupacs) termés vagy apró, szárnyas termés. A kocsányos tölgy is ebbe a rendbe tartozik.
+A **rend** (ordo) az osztály alatti rang. A bükkfavirágúak rendje (Fagales) olyan fás szárú növényeket fog össze, amelyek virágai rendszerint egyivarúak és [barkában](@/glossary.md#barka) állnak, termésük pedig [makk](@/glossary.md#makk), [kupacsos](@/glossary.md#kupacs) termés vagy apró, szárnyas termés.
 
 ## Mit jelent a rend rangja?
 
@@ -25,22 +25,8 @@ A rend neve a növényeknél nem egységes toldalékú, de a Linnéi nevezéktan
 - Ektomikorrhiza: a rend fajainak többsége ektomikorrhizás kapcsolatban él a talajgombákkal, ami segíti a tápanyagfelvételt.
 - Allergén pollen: a nyírek, az égerfélék és a mogyoró tavaszi virágpora sokaknál allergiát okoz.
 
-## A kocsányos tölgy helye
-
-A kocsányos tölgy a bükkfavirágúak rendjén belül a bükkfafélék családjába tartozik. A rend a besorolás negyedik szintje:
-
-- Ország — Növények (Plantae)
-- Törzs — Zárvatermők (Magnoliophyta)
-- Osztály — Kétszikűek (Magnoliopsida)
-- **Rend** — Bükkfavirágúak (Fagales)
-- Család — Bükkfafélék (Fagaceae)
-- Nemzetség — Tölgy (Quercus)
-- Faj — Kocsányos tölgy (Quercus robur)
-
-A részletes fajleírást a [kocsányos tölgy adatlapján](@/species/pedunculate-oak.md) találod.
-
 ## Kapcsolódó oldalak
 
 - [Osztály – Kétszikűek (Magnoliopsida)](@/taxonomy/class.md)
 - [Család – Bükkfafélék (Fagaceae)](@/taxonomy/family.md)
-- [Kocsányos tölgy](@/species/pedunculate-oak.md)
+- [Linnéi rendszertan](@/taxonomy/linnea.md)

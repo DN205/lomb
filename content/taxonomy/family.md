@@ -9,7 +9,7 @@ group = "rank"
 verified_by = "AI"
 +++
 
-A **család** (familia) a rend alatti rang. A bükkfafélék családja (Fagaceae) olyan fákat és cserjéket fog össze, amelyek egyszerű levelűek, egyivarú virágúak, és termésüket [kupacs](@/glossary.md#kupacs) védi. Ide tartozik a bükk, a tölgy és a gesztenye, valamint a kocsányos tölgy is.
+A **család** (familia) a rend alatti rang. A bükkfafélék családja (Fagaceae) olyan fákat és cserjéket fog össze, amelyek egyszerű levelűek, egyivarú virágúak, és termésüket [kupacs](@/glossary.md#kupacs) védi. Ide tartozik a bükk, a tölgy és a gesztenye.
 
 ## Mit jelent a család rangja?
 
@@ -25,22 +25,8 @@ A Fagaceae család mintegy 900–1000 fajt számlál, és főleg az északi fél
 - Ektomikorrhiza: a család fajai talajgombákkal élnek szimbiózisban.
 - Kemény, tartós fa és tanninok: a tölgyek és a bükkök faanyaga évszázadok óta értékes; kérgük cserzőanyagot tartalmaz.
 
-## A kocsányos tölgy helye
-
-A kocsányos tölgy a bükkfafélék családján belül a tölgy nemzetségbe tartozik. A család a besorolás ötödik szintje:
-
-- Ország — Növények (Plantae)
-- Törzs — Zárvatermők (Magnoliophyta)
-- Osztály — Kétszikűek (Magnoliopsida)
-- Rend — Bükkfavirágúak (Fagales)
-- **Család** — Bükkfafélék (Fagaceae)
-- Nemzetség — Tölgy (Quercus)
-- Faj — Kocsányos tölgy (Quercus robur)
-
-A részletes fajleírást a [kocsányos tölgy adatlapján](@/species/pedunculate-oak.md) találod.
-
 ## Kapcsolódó oldalak
 
 - [Rend – Bükkfavirágúak (Fagales)](@/taxonomy/order.md)
-- [Nemzetség – Tölgy (Quercus)](@/taxonomy/genus.md)
-- [Kocsányos tölgy](@/species/pedunculate-oak.md)
+- [Nemzetség](@/taxonomy/genus.md)
+- [Linnéi rendszertan](@/taxonomy/linnea.md)

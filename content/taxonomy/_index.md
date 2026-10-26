@@ -16,4 +16,4 @@ A Linnéi rendszertan a hagyományos, rangokra épülő besorolást mutatja, ame
 
 Mindkét szemlélet ugyanazokat a fajokat írja le, csak más hangsúlyt ad a rokonságnak és a rangoknak.
 
-A hét Linnéi rangot külön oldalakon is bemutatjuk a kocsányos tölgy példáján, az országtól a fajig.
+A hét Linnéi rangot külön oldalakon is bemutatjuk, az országtól a fajig.

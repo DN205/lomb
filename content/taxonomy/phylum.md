@@ -9,7 +9,7 @@ group = "rank"
 verified_by = "AI"
 +++
 
-A **törzs** (divisio) az ország alatti rang. A növényeknél a törzs és a divízió ugyanazt a szintet jelöli; a magyar szakirodalomban mindkét elnevezés előfordul. A zárvatermők törzse (Magnoliophyta) a növények legnagyobb és legváltozatosabb csoportja: ide tartozik a kocsányos tölgy is.
+A **törzs** (divisio) az ország alatti rang. A növényeknél a törzs és a divízió ugyanazt a szintet jelöli; a magyar szakirodalomban mindkét elnevezés előfordul. A zárvatermők törzse (Magnoliophyta) a növények legnagyobb és legváltozatosabb csoportja.
 
 ## Mit jelent a törzs rangja?
 
@@ -27,22 +27,8 @@ A törzs neve a növényeknél gyakran -phyta végződésű (Magnoliophyta, Pino
 
 A zárvatermők korszerű, molekuláris adatokon alapuló felosztása az APG IV rendszer, amely kládokat használ. A Magnoliophyta hagyományos, Linnéi rang, amely ezt a nagy csoportot jelöli.
 
-## A kocsányos tölgy helye
-
-A kocsányos tölgy a zárvatermők törzsén belül a kétszikűek osztályába tartozik. A törzs a besorolás második szintje:
-
-- Ország — Növények (Plantae)
-- **Törzs** — Zárvatermők (Magnoliophyta)
-- Osztály — Kétszikűek (Magnoliopsida)
-- Rend — Bükkfavirágúak (Fagales)
-- Család — Bükkfafélék (Fagaceae)
-- Nemzetség — Tölgy (Quercus)
-- Faj — Kocsányos tölgy (Quercus robur)
-
-A részletes fajleírást a [kocsányos tölgy adatlapján](@/species/pedunculate-oak.md) találod.
-
 ## Kapcsolódó oldalak
 
 - [Ország – Növények (Plantae)](@/taxonomy/kingdom.md)
 - [Osztály – Kétszikűek (Magnoliopsida)](@/taxonomy/class.md)
-- [Kocsányos tölgy](@/species/pedunculate-oak.md)
+- [Linnéi rendszertan](@/taxonomy/linnea.md)
