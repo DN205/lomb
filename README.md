@@ -18,7 +18,7 @@ The site is built with [Zola](https://www.getzola.org/) and deployed to GitHub P
 | `content/about.md`, `content/privacy.md` | Standalone root pages |
 | `templates/` | All Tera templates (no theme is used) |
 | `static/css/tree.css` | The single stylesheet |
-| `static/js/filter.js` | Accent-insensitive species filter on the home page |
+| `static/js/filter.js` | Accent-insensitive species filter on the Fajok page (`/fajok/`) |
 | `AGENTS.md` | Detailed repository conventions and gotchas |
 
 ## Requirements
@@ -82,7 +82,7 @@ clades = ["Angiospermae", "Eudicotyledoneae", "Superrosidae", "Rosidae",
 
 Notes on the front matter:
 
-- `extra.origin` is the short place of origin shown in the home-page search results; keep it consistent with `distribution.native`.
+- `extra.origin` is the short place of origin shown in the search results on the Fajok page; keep it consistent with `distribution.native`.
 - `extra.distribution.native` and `extra.distribution.other` are optional lists. A legacy scalar `distribution` still renders.
 - `extra.family` must match `extra.linnaean.family`.
 - `linnaean` values use the `"Hungarian (Latin)"` format; `clades` are Latin-only, ordered from broad to species.
