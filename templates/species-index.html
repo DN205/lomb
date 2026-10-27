@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} · Lomb{% endblock %}
+{% block description %}{{ page.description | default(value="Lomb – fafajok adatbázisa") }}{% endblock %}
+
+{% block content %}
+{% set speciesSection = get_section(path="species/_index.md") %}
+
+<section class="catalogue" aria-labelledby="catalogue-title">
+    <header class="page-header">
+        <p class="eyebrow">Fafajok adatbázisa</p>
+        <h1 id="catalogue-title">{{ page.title }}</h1>
+        {% if page.description %}
+        <p class="lead">{{ page.description }}</p>
+        {% endif %}
+    </header>
+
+    {% if page.content %}
+    <div class="reference-body">
+        {{ page.content | safe }}
+    </div>
+    {% endif %}
+
+    {% if speciesSection.pages %}
+    {{<species.list pages={speciesSection.pages} />}}
+    {% else %}
+    <p class="empty-state">Hamarosan érkeznek az első fafajok.</p>
+    {% endif %}
+</section>
+{% endblock content %}

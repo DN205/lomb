@@ -4,8 +4,6 @@
 {% block body_class %}home-page{% endblock %}
 
 {% block content %}
-{% set speciesSection = get_section(path="species/_index.md") %}
-
 <div class="home-shell">
     <section class="home-intro" aria-labelledby="home-title">
         <p class="eyebrow">Fafajok adatbázisa</p>
@@ -19,18 +17,11 @@
     <nav class="home-menu" aria-label="Menü">
         <p class="home-menu-title">Menü</p>
         <ul>
+            <li><a class="home-menu-primary" href="{{ get_url(path='@/species-index.md') }}">Fajok <span aria-hidden="true">→</span></a></li>
             <li><a href="{{ get_url(path='@/taxonomy/_index.md') }}">Rendszertan <span aria-hidden="true">→</span></a></li>
             <li><a href="{{ get_url(path='@/glossary.md') }}">Szószedet <span aria-hidden="true">→</span></a></li>
             <li><a href="{{ get_url(path='@/sources/_index.md') }}">Források <span aria-hidden="true">→</span></a></li>
         </ul>
     </nav>
-
-    <section class="home-search" aria-label="Keresés a fafajok között">
-        {% if speciesSection.pages %}
-        {{<species.list pages={speciesSection.pages} />}}
-        {% else %}
-        <p class="empty-state">Hamarosan érkeznek az első fafajok.</p>
-        {% endif %}
-    </section>
 </div>
 {% endblock content %}
