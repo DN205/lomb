@@ -14,14 +14,23 @@
         </p>
     </section>
 
-    <nav class="home-menu" aria-label="Menü">
-        <p class="home-menu-title">Menü</p>
-        <ul>
-            <li><a class="home-menu-primary" href="{{ get_url(path='@/species-index.md') }}">Fajok <span aria-hidden="true">→</span></a></li>
-            <li><a href="{{ get_url(path='@/taxonomy/_index.md') }}">Rendszertan <span aria-hidden="true">→</span></a></li>
-            <li><a href="{{ get_url(path='@/glossary.md') }}">Szószedet <span aria-hidden="true">→</span></a></li>
-            <li><a href="{{ get_url(path='@/sources/_index.md') }}">Források <span aria-hidden="true">→</span></a></li>
-        </ul>
+    <nav class="home-links topic-list" aria-label="Oldalak">
+        <a class="topic-card topic-card-featured" href="{{ get_url(path='@/species-index.md') }}">
+            <span class="topic-title">Fajok</span>
+            <span class="topic-description">Kereshető katalógus a fafajok adatlapjaival, szűrve név, származás, család vagy rendszertani besorolás szerint.</span>
+        </a>
+        <a class="topic-card" href="{{ get_url(path='@/taxonomy/_index.md') }}">
+            <span class="topic-title">Rendszertan</span>
+            <span class="topic-description">A Linnéi és a kladisztikus rendszertan alapjai, valamint a hét rendszertani rang magyarázata.</span>
+        </a>
+        <a class="topic-card" href="{{ get_url(path='@/glossary.md') }}">
+            <span class="topic-title">Szószedet</span>
+            <span class="topic-description">A fajleírásokban előforduló botanikai és ökológiai szakkifejezések rövid magyarázata.</span>
+        </a>
+        <a class="topic-card" href="{{ get_url(path='@/sources/_index.md') }}">
+            <span class="topic-title">Források</span>
+            <span class="topic-description">A fajlapok szakirodalma és online adatbázisai, valamint a hivatkozási elvek és az AI-használat szabályai.</span>
+        </a>
     </nav>
 </div>
 {% endblock content %}
