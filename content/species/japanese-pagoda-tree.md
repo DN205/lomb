@@ -13,10 +13,8 @@ lifespan = "80–150 év"
 origin = "Kelet-Ázsia"
 
 [extra.distribution]
-other = [
-    "Kelet-Ázsia (őshazája)",
-    "Magyarországon díszfaként telepített",
-]
+native = ["Kelet-Ázsia (Kína, Korea)"]
+other = ["Magyarországon díszfaként telepített"]
 
 [extra.linnaean]
 kingdom = "Növények (Plantae)"
