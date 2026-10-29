@@ -1,7 +1,7 @@
 +++
 title = "Szószedet"
 description = "A fajleírásokban előforduló botanikai és ökológiai szakkifejezések rövid magyarázata."
-date = 2026-10-25
+date = 2026-10-29
 template = "glossary.html"
 
 [extra]
@@ -125,6 +125,12 @@ Keskeny, hengeres vagy lapos, vastag kutikulájú levél, amely a fenyők és a 
 *root sucker*
 
 A gyökérből fejlődő hajtás, amellyel a fa vegetatívan, mag nélkül terjed. A rezgő nyár, a fehér nyár és a bálványfa gyökérsarjakkal hódít meg nagy területeket.
+
+### Kétlaki {#ketlaki}
+
+*dioecious*
+
+Olyan növény, amelynek porzós és termős virágai külön példányon fejlődnek, ezért termés csak akkor képződik, ha mindkét ivarú példány közel áll egymáshoz. A tiszafa, a páfrányfenyő és a boróka kétlaki. Ha a porzós és a termős virágok ugyanazon a növényen nyílnak, a faj egylaki, mint a fenyők és a tölgyek.
 
 ### Magköpeny {#magkopeny}
 
