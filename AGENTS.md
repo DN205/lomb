@@ -2,7 +2,7 @@
 
 ## Project
 
-Zola 0.23.4 static site (Hungarian-language tree-species database). No Node, no package manager, no test or lint suite — `zola check` is the only verification. Git repo on `main`; `public/` and `.DS_Store` are ignored.
+Zola 0.23.4 static site (Hungarian-language tree-species database). No Node, no package manager, no test or lint suite — `zola check` is the only verification. Git repo; `main` is always clean and buildable, all development happens on branches. `public/` and `.DS_Store` are ignored.
 
 ## Commands
 
@@ -59,9 +59,30 @@ clades = ["Angiospermae", "Eudicotyledoneae", "Superrosidae", "Rosidae",
 - `extra.family` is still used by the fact box; keep it in sync with `extra.linnaean.family`.
 - `extra.verified_by` feeds the right-hand status panel, rendered as `Ember ellenőrizte: Igen` for `Human` and `Ember ellenőrizte: Nem` for anything else; the template falls back to `AI` when the key is missing, so set `verified_by = "Human"` only once a person has actually reviewed the page.
 
-## Commits
+## Git
 
-- Every new feature gets its own commit: implement, run `zola check`, then commit that feature alone. Do not fold unrelated changes into it.
+`main` is the release branch; all development happens elsewhere.
+
+- `main` must always be clean and functional: it builds, passes `zola check`, holds only reviewed changes, and carries no uncommitted, stashed or half-finished work.
+- All development happens on a branch, never on `main`. Branch off an up-to-date `main`, commit there, and leave it at that.
+- `zola check` is the test suite: run it on exactly the tree you are about to commit and commit only when it passes. Never commit a version that fails verification or renders a broken page — fix it first or leave it uncommitted.
+- One commit, one logical unit: a species page, a template change together with the CSS and JS it needs, a docs fix. Never fold unrelated edits, drive-by reformatting or an `AGENTS.md` change into content work; split them.
+- Stage explicitly and review the staged tree, because the committed tree must be the checked tree:
+
+  ```sh
+  git status --short
+  git add <paths>
+  git diff --cached
+  git stash push -u --keep-index -m "later units"
+  zola check
+  git commit
+  git stash pop
+  ```
+
+- Commits only: do not push, open pull requests or merge — people do that. Stop once the branch has the commits.
+- Avoid `git add -A` / `git commit -a` in a dirty tree; `public/` and `.DS_Store` are ignored build output and noise, and nothing is force-added (`git add -f`).
+- Commit messages are short, imperative and in English (`Fix glossary topic spacing`); Hungarian stays in the visible copy only.
+- The review checklist is in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Gotchas
 
