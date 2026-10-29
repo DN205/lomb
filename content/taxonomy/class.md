@@ -14,19 +14,22 @@ Az **osztály** (classis) a törzs alatti rang. Az osztály a törzsön belüli 
 
 ## Mit jelent az osztály rangja?
 
-Az osztályok elkülönítése már a 17. századi botanikusok munkáiban megjelent, és a Linnéi rendszer egyik legfontosabb tagolása lett. A növényeknél a hagyományos rendszer a zárvatermőket két nagy osztályra bontja: a kétszikűekre (Magnoliopsida) és az egyszikűekre (Liliopsida). Más törzsekben, például a nyitvatermőknél vagy a harasztoknál, az osztályok száma és neve eltér.
+Az osztályok elkülönítése már a 17. századi botanikusok munkáiban megjelent, és a Linnéi rendszer egyik legfontosabb tagolása lett. Az osztályok száma és neve törzsről törzsre eltér; a legismertebb felosztás a virágos növények sziklevélszámán alapul.
 
 Az osztály neve a növényeknél gyakran -opsida végződésű (Magnoliopsida, Liliopsida), de a nevezéktan nem ír elő egységes végződést minden csoportra.
 
-## A kétszikűek és az egyszikűek
+## A sziklevélszám
 
 - **Sziklevél:** a kétszikűek csírájában két sziklevél, az egyszikűekében egy fejlődik.
 - **Levélerezet:** a kétszikűeknél rendszerint hálózatos, az egyszikűeknél párhuzamos.
 - **Virágok:** a kétszikűek virágtakarója gyakran négyes vagy ötös, az egyszikűeké hármas.
 - **Szállítószövet:** a kétszikűek szárában a szállítókötegek gyűrűben állnak, és sok fajnál másodlagos vastagodás alakul ki; az egyszikűeknél ez rendszerint hiányzik.
-- **Fás szárúak:** a fák és cserjék többsége kétszikű, de az egyszikűek között is akadnak fás szárúak, például a pálmák.
 
 Fontos azonban, hogy a kétszikűek a modern kladisztikában nem monofiletikus csoport: több különálló leszármazási vonalat fognak össze. Az APG IV rendszer ezért a valódi kétszikűeket (eudicots) és a bazális kétszikűeket külön kládokként kezeli. A Magnoliopsida hagyományos rang, amelyet a Linnéi rendszer használ.
+
+## Hogyan kapcsolódik a fákhoz?
+
+Az adatbázisban három osztály fordul elő: a zárvatermők fáinak többsége a kétszikűek osztályába tartozik (tölgy, juhar, hárs, nyír, szil, kőris…), a fenyők, a tiszafák és a ciprusfélék a tűlevelűek osztályát képviselik, a páfrányfenyő pedig a maga osztályába (Ginkgopsida) sorolható. A lombos magvas fák tehát kétszikűek, a tűlevelűek és a tiszafák a Pinopsida, a páfrányfenyő a Ginkgopsida osztályba tartozik. Ez az adatlap „Rendszertan” paneljének harmadik sora.
 
 ## Kapcsolódó oldalak
 

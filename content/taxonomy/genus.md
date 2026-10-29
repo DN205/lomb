@@ -24,6 +24,10 @@ A nemzetség határának meghúzása nem mindig egyértelmű. A nemzetségen bel
 
 Mivel a nemzetségnév a faj tudományos nevének része, a névhasználatot szigorú szabályok rögzítik. Ha egy csoportot átsorolnak, a nemzetségnév is megváltozhat, ami az összes hozzá tartozó faj tudományos nevét érinti.
 
+## Hogyan kapcsolódik a fákhoz?
+
+A fák egymáshoz közeli rokonait általában a nemzetség szint fejti meg: a tölgy (Quercus) nemzetségbe a kocsányos, a kocsánytalan, a molyhos és a vörös tölgy tartozik, a nyár (Populus) nemzetségbe a fehér, a fekete, a rezgő és a kanadai nyár, a juhar (Acer) nemzetségbe pedig a hegyi, a mezei, a korai és a zöld juhar. A nemzetség az adatlap „Rendszertan” paneljének hatodik sora.
+
 ## Kapcsolódó oldalak
 
 - [Család](@/taxonomy/family.md)

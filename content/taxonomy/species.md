@@ -24,6 +24,10 @@ A fajfogalom a gyakorlatban nem mindig éles. A közeli rokon fajok hibridizál�
 
 A rendszertan ezért többféle fajfogalmat használ: a biológiai mellett létezik morfológiai, ökológiai és filogenetikai fajfogalom is. A gyakorlati határozás rendszerint a külső jegyekre, a termőhelyre és a rokonsági adatokra együtt támaszkodik.
 
+## Hogyan kapcsolódik a fákhoz?
+
+Az adatbázis minden fája egy-egy faj: például a kocsányos tölgy (Quercus robur), a kislevelű hárs (Tilia cordata) vagy a kanadai nyár (Populus × canadensis), amely a két szülőfaj hibridje. A fafajok mind az adatlapjaikból, a [fajok katalógusából](@/species-index.md) érhetők el; a faj az adatlap „Rendszertan” paneljének utolsó sora.
+
 ## Kapcsolódó oldalak
 
 - [Nemzetség](@/taxonomy/genus.md)

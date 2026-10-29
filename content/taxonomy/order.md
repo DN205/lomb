@@ -18,18 +18,15 @@ A rendek határait a közös származás és a jellegzetes felépítés együtt 
 
 A rend neve a növényeknél gyakran -ales végződésű (Fagales, Rosales, Sapindales), de a nevezéktan nem ír elő egységes végződést minden csoportra.
 
-## Példák a rendszertanból
-
-- A bükkfavirágúak (Fagales) többnyire szélbeporzó, barkás fák és cserjék rendje.
-- A rózsavirágúak (Rosales) közé tartozik több ismert gyümölcsfa és díszcserje.
-- A szappanfavirágúak (Sapindales) közé sorolják a juharokat és a citrusféléket.
-- A fenyőalakúak (Pinales) a nyitvatermők egyik nagy rendje.
-
-## Hogyan ismerhető fel?
+## Mi jellemzi a rendeket?
 
 - A rend szintjén a virágzat, a termés és a levél felépítése adja a legfontosabb közös jegyeket.
 - Egy renden belül a családok, nemzetségek és fajok tagolják a csoportot.
 - A rend neve segít a tájékozódásban, de a besorolás nem a névből, hanem a rokonságból következik.
+
+## Hogyan kapcsolódik a fákhoz?
+
+Az adatbázis fáinak rend tartozása a szél-, rovarbeporzásra és a termés alakjára is utal: a szélbeporzó, barkás fákat a bükkfavirágúak, a hüvelyes termésűeket a hüvelyesek, a juhart és rokonait a szappanfavirágúak fogja össze. Minden rendet külön csoportoldal mutat be — ezek az adatlap „Rendszertan” panel negyedik sorai.
 
 ## Kapcsolódó oldalak
 

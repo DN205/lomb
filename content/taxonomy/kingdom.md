@@ -23,7 +23,10 @@ A hagyományos felosztás az élővilágot több országra bontja. A növények 
 - Az országok határait a sejtek felépítése, az anyagcsere és a szaporodás módja jelöli ki.
 - Egy országon belül a törzsek, osztályok és további rangok tagolják a csoportot.
 - Az országok száma és határa a rendszertani szemlélettől függ: a molekuláris adatok és a kladisztika időnként átrajzolják a hagyományos felosztást.
-- A növények országán belül a mohák, a harasztok, a nyitvatermők és a zárvatermők is helyet kapnak.
+
+## Hogyan kapcsolódik a fákhoz?
+
+Az adatbázis valamennyi fafaja a növények országába tartozik: többsejtű, fotoszintetizáló, cellulózfalú sejtekkel. Ez az egyetlen rang, amelyen a fáink mind egyetlen csoportba esnek — az adatlap „Rendszertan” paneljének első sora ezért minden fajnál ugyanaz. A fákat a többi növénytől elválasztó jegyek a törzs és az osztály szintjén jelennek meg.
 
 ## Kapcsolódó oldalak
 

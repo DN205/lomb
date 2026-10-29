@@ -14,22 +14,19 @@ A **család** (familia) a rend alatti rang. A család a renden belüli, közeli 
 
 ## Mit jelent a család rangja?
 
-A növények családnevei egységesen -aceae végződésűek (Fagaceae, Rosaceae, Salicaceae), a magyar nevek pedig -félék toldalékot kapnak (bükkfafélék, rózsafélék, fűzfélék). A család a Linnéi rendszer egyik legstabilabb rangja: a nemzetségek és fajok átrendeződhetnek, de a családok határai viszonylag jól körülhatároltak.
+A növényi családnevek egységesen -aceae végződésűek (Fagaceae, Rosaceae, Salicaceae), a magyar nevek pedig -félék toldalékot kapnak (bükkfafélék, rózsafélék, fűzfélék). A család a Linnéi rendszer egyik legstabilabb rangja: a nemzetségek és fajok átrendeződhetnek, de a családok határai viszonylag jól körülhatároltak.
 
 A családok mérete nagyon eltérő: egyesek néhány nemzetséget, mások több százat fognak össze. A családok száma és határa a rendszerezés módjától függ, és a molekuláris adatok nyomán időnként módosul.
 
-## Példák a rendszertanból
-
-- A bükkfafélék (Fagaceae) egyszerű levelű, kupacsos termésű fákat és cserjéket fognak össze.
-- A rózsafélék (Rosaceae) közé sorolják az alma, a körte, a cseresznye és a rózsa nemzetségét.
-- A fűzfafélék (Salicaceae) közé tartoznak a fűzek és a nyárak.
-- A fenyőfélék (Pinaceae) a nyitvatermők egyik legnagyobb családja.
-
-## Hogyan ismerhető fel?
+## Mi jellemzi a családokat?
 
 - A család szintjén a virág, a termés és a levél felépítése adja a legfontosabb közös jegyeket.
 - Egy családon belül a nemzetségek és a fajok tagolják a csoportot.
 - A családnevek végződése segít a tájékozódásban, de a besorolás nem a névből, hanem a rokonságból következik.
+
+## Hogyan kapcsolódik a fákhoz?
+
+A fák között a család szint az elrendezés legszélesebb csoportja: a bükkfafélék (Fagaceae) jellemzően makkot, kupacs-ágyazatban termő fák, a rózsafélék (Rosaceae) közé az alma, a körte és a cseresznye tartozik, a fűzfafélék (Salicaceae) pedig a fűzeket és a nyarakat fogja össze, így minden vízparti és ligeterdei fafajunk ide tartozik. A fenyőfélék (Pinaceae) a tűlevelűek egyik legnagyobb családja. Így épül fel az adatlap „Rendszertan” paneljének ötödik sora is.
 
 ## Kapcsolódó oldalak
 

@@ -22,8 +22,12 @@ A törzs neve a növényeknél gyakran -phyta végződésű (Bryophyta, Pinophyt
 
 - A törzs szintjén a csoportokat a testfelépítés alapvető vonásai különítik el, például a szállítószövet jelenléte vagy a magvak védelme.
 - Egy törzsön belül az osztályok, rendek és további rangok tagolják a csoportot.
-- A törzsek mérete nagyon eltérő: a zárvatermők mintegy 300 000 ismert fajt számlálnak, míg más törzsek jóval kevesebbet.
+- A törzsek mérete nagyon eltérő: a legfajgazdagabb törzsek több százezer ismert fajt számlálnak, míg más törzsek jóval kevesebbet.
 - A hagyományos és a kladisztikus felosztás nem mindig esik egybe; a törzs a Linnéi rendszer rangja, amelyet a kladisztika kládokkal helyettesít vagy egészít ki.
+
+## Hogyan kapcsolódik a fákhoz?
+
+A fákat három növényi törzsre osztjuk: a nyitvatermők törzsének magvai szabadon, jellemzően kúpban érnek (fenyő, luc, tiszafa), a páfrányfenyők törzse egyetlen, ősi fajt képvisel (páfrányfenyő), a zárvatermőké pedig termőlevélbe zártan, virágzó növényként fejlődik (tölgy, juhar, hárs és minden más lombos fa). Az adatlap „Rendszertan” paneljében minden fa pontosan e három törzs egyikéhez tartozik.
 
 ## Kapcsolódó oldalak
 
