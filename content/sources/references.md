@@ -1,7 +1,7 @@
 +++
 title = "Hivatkozások"
 description = "A Lomb fajlapjainak hátterében álló szakirodalom és online adatbázisok, valamint a mesterséges intelligencia használatának szabályai."
-date = 2026-10-25
+date = 2026-10-29
 weight = 10
 
 [extra]
@@ -20,6 +20,7 @@ A fajlapok szövegei saját megfogalmazásban, az alábbi szakirodalom és onlin
 - Plants of the World Online (Kew Royal Botanic Gardens) – a fajok rendszertanát és elterjedését bemutató adatbázis.
 - World Flora Online – nemzetközi flóraadatbázis a fajok leírásához és szinonimáihoz.
 - [GBIF – Global Biodiversity Information Facility](https://www.gbif.org) – előfordulási adatok gyűjteménye.
+- [Catalogue of Life](https://www.catalogueoflife.org) – a fajok elterjedését és rendszertani helyét összesítő adatbázis.
 - [Euro+Med PlantBase](https://europlusmed.org) – az európai és mediterrán flóra rendszertani adatbázisa.
 - [IUCN Red List of Threatened Species](https://www.iucnredlist.org) – a fajok természetvédelmi helyzetének nemzetközi értékelése.
 - [MÉTA Program – Magyarország növényzeti öröksége](https://www.novenyzetiterkep.hu) – hazai élőhely- és vegetációadatok.
