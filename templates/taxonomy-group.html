@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} · Lomb{% endblock %}
+{% block description %}{{ page.description | default(value="Lomb – fafajok adatbázisa") }}{% endblock %}
+
+{% block content %}
+{% set taxonomySection = get_section(path="taxonomy/_index.md") %}
+{% set groupsSection = get_section(path="taxonomy/groups/_index.md") %}
+        {% set speciesSection = get_section(path="species/_index.md") %}
+        {% set rankKey = page.extra.rank %}
+        {% set latinName = page.extra.latin %}
+        {% set rankLabels = { "kingdom": "Ország", "division": "Törzs", "class": "Osztály", "order": "Rend", "family": "Család", "genus": "Nemzetség" } %}
+{% set rankOrder = [ "kingdom", "division", "class", "order", "family" ] %}
+
+<div class="reference-sheet">
+    <article class="reference-page">
+        <header class="page-header">
+            <p class="eyebrow"><a class="eyebrow-link" href="{{ taxonomySection.permalink | safe }}">Rendszertan</a> · {{ rankLabels[page.extra.rank] }}</p>
+            <h1>{{ page.title }}</h1>
+            {% if page.description %}
+            <p class="lead">{{ page.description }}</p>
+            {% endif %}
+        </header>
+
+        <ol class="breadcrumb" aria-label="Rendszertani lánc">
+            <li><a href="{{ taxonomySection.permalink | safe }}">Rendszertan</a></li>
+            {% for step in rankOrder %}
+            {% if step == page.extra.rank %}
+            <li aria-current="page">{{ rankLabels[step] }}</li>
+            {% else %}
+            {% for ancestor in groupsSection.pages %}
+            {% if ancestor.extra.rank == step and ancestor.extra.latin == page.extra[step] %}
+            <li><a href="{{ ancestor.permalink | safe }}">{{ rankLabels[step] }}: {{ ancestor.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+            {% endif %}
+            {% endfor %}
+        </ol>
+
+        <div class="reference-body">
+            {{ page.content | safe }}
+        </div>
+
+        <h2 class="topic-group-title">Fák az adatbázisban</h2>
+        <ul id="species-list" class="group-species">
+            {% for sp in speciesSection.pages %}
+            {% if latinName in sp.extra.linnaean[rankKey] %}
+            <li>
+                <a href="{{ sp.permalink | safe }}">
+                    <span class="species-primary">
+                        <span class="species-name">{{ sp.title }}</span>
+                        <span class="species-names"><span class="latin">{{ sp.extra.latin }}</span></span>
+                    </span>
+                </a>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+
+        <nav class="reference-nav" aria-label="Rendszertani témák">
+            <a class="back-link" href="{{ groupsSection.permalink | safe }}">← Vissza a csoportokhoz</a>
+            <p class="reference-nav-label">Környező rangok</p>
+            <ul class="reference-topic-links">
+                {% for topic in taxonomySection.pages %}
+                {% if topic.extra.group == "system" %}
+                <li><a href="{{ topic.permalink | safe }}">{{ topic.title }}</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+            <p class="reference-nav-label">Csoportok ezen a rangon</p>
+            <ul class="reference-topic-links">
+                {% for group in groupsSection.pages %}
+                {% if group.extra.rank == page.extra.rank and group.permalink != page.permalink %}
+                <li><a href="{{ group.permalink | safe }}">{{ group.title }}</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </nav>
+    </article>
+
+    <aside class="fact-box status-box" aria-label="Az adatlap állapota">
+        <h2 class="fact-box-title">Állapot</h2>
+        <dl>
+            <dt>Utolsó frissítés</dt>
+            <dd><time datetime="{{ page.date }}">{{ page.date | date(format="%Y. %m. %d.") }}</time></dd>
+        </dl>
+        <p class="verified">
+            <svg class="verified-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="m5 12.5 4.5 4.5L19 7.5" />
+            </svg>
+            {% set reviewed_by_human = page.extra.verified_by | default(value="AI") == "Human" %}
+            <span><span class="verified-label">Ember ellenőrizte:</span> {% if reviewed_by_human %}Igen{% else %}Nem{% endif %}</span>
+        </p>
+    </aside>
+</div>
+{% endblock content %}

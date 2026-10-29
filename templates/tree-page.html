@@ -59,6 +59,10 @@
         </dl>
 
         {% if page.extra.linnaean is defined or page.extra.cladistic is defined %}
+        {% set taxonomySection = get_section(path="taxonomy/_index.md") %}
+        {% set groupsSection = get_section(path="taxonomy/groups/_index.md") %}
+        {% set rankLabels = { "kingdom": "Ország", "division": "Törzs", "class": "Osztály", "order": "Rend", "family": "Család", "genus": "Nemzetség", "species": "Faj" } %}
+        {% set rankOrder = ["kingdom", "division", "class", "order", "family", "genus", "species"] %}
         <section class="taxonomy" aria-labelledby="taxonomy-title">
             <h3 class="taxonomy-title" id="taxonomy-title">Rendszertan</h3>
 
@@ -66,34 +70,28 @@
             <div class="taxonomy-block">
                 <h4>Linnéi rendszertan</h4>
                 <dl>
-                    {% if page.extra.linnaean.kingdom %}
-                    <dt>Ország</dt>
-                    <dd><a href="{{ get_url(path='@/taxonomy/kingdom.md') }}">{{ page.extra.linnaean.kingdom }}</a></dd>
+                    {% for rank in rankOrder %}
+                    {% set value = page.extra.linnaean[rank] | default(value="") %}
+                    {% if value %}
+                    {% set_global target = "" %}
+                    {% for group in groupsSection.pages %}
+                    {% if group.extra.rank == rank and group.extra.latin in value %}
+                    {% set_global target = group.permalink %}
                     {% endif %}
-                    {% if page.extra.linnaean.division %}
-                    <dt>Törzs</dt>
-                    <dd><a href="{{ get_url(path='@/taxonomy/phylum.md') }}">{{ page.extra.linnaean.division }}</a></dd>
+                    {% endfor %}
+                    {% if not target %}
+                    {% for topic in taxonomySection.pages %}
+                    {% if topic.extra.rank == rank %}
+                    {% set_global target = topic.permalink %}
                     {% endif %}
-                    {% if page.extra.linnaean.class %}
-                    <dt>Osztály</dt>
-                    <dd><a href="{{ get_url(path='@/taxonomy/class.md') }}">{{ page.extra.linnaean.class }}</a></dd>
+                    {% endfor %}
                     {% endif %}
-                    {% if page.extra.linnaean.order %}
-                    <dt>Rend</dt>
-                    <dd><a href="{{ get_url(path='@/taxonomy/order.md') }}">{{ page.extra.linnaean.order }}</a></dd>
+                    {% if target %}
+                    <dt>{{ rankLabels[rank] }}</dt>
+                    <dd><a href="{{ target | safe }}">{{ value }}</a></dd>
                     {% endif %}
-                    {% if page.extra.linnaean.family %}
-                    <dt>Család</dt>
-                    <dd><a href="{{ get_url(path='@/taxonomy/family.md') }}">{{ page.extra.linnaean.family }}</a></dd>
                     {% endif %}
-                    {% if page.extra.linnaean.genus %}
-                    <dt>Nemzetség</dt>
-                    <dd><a href="{{ get_url(path='@/taxonomy/genus.md') }}">{{ page.extra.linnaean.genus }}</a></dd>
-                    {% endif %}
-                    {% if page.extra.linnaean.species %}
-                    <dt>Faj</dt>
-                    <dd><a href="{{ get_url(path='@/taxonomy/species.md') }}">{{ page.extra.linnaean.species }}</a></dd>
-                    {% endif %}
+                    {% endfor %}
                 </dl>
             </div>
             {% endif %}

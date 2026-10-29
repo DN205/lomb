@@ -25,11 +25,28 @@
             <p class="reference-nav-label">További témák</p>
             <ul class="reference-topic-links">
                 {% for topic in taxonomySection.pages %}
-                {% if topic.permalink != page.permalink %}
+                {% if topic.extra.group == "system" and topic.permalink != page.permalink %}
                 <li><a href="{{ topic.permalink | safe }}">{{ topic.title }}</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
+
+            {% if page.extra.group == "rank" and page.extra.rank %}
+            {% set groupsSection = get_section(path="taxonomy/groups/_index.md") %}
+            <h2 class="topic-group-title">Csoportok ezen a rangon</h2>
+            <nav class="topic-list" aria-label="Csoportok ezen a rangon">
+                {% for group in groupsSection.pages %}
+                {% if group.extra.rank == page.extra.rank %}
+                <a class="topic-card" href="{{ group.permalink | safe }}">
+                    <span class="topic-title">{{ group.title }}</span>
+                    {% if group.description %}
+                    <span class="topic-description">{{ group.description }}</span>
+                    {% endif %}
+                </a>
+                {% endif %}
+                {% endfor %}
+            </nav>
+            {% endif %}
         </nav>
     </article>
 

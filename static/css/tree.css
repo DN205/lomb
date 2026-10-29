@@ -183,7 +183,8 @@ h1 {
     margin: 0.5rem 0 1rem;
 }
 
-#species-filter {
+#species-filter,
+#taxonomy-filter {
     flex: 1;
     min-width: 0;
     padding: 0.5rem 0;
@@ -288,7 +289,8 @@ h1 {
     margin-top: 0.3rem;
 }
 
-#species-filter::placeholder {
+#species-filter::placeholder,
+#taxonomy-filter::placeholder {
     color: color-mix(in srgb, var(--moss) 75%, var(--paper));
 }
 
@@ -340,14 +342,16 @@ h1 {
     color: var(--moss);
 }
 
-#species-list {
+#species-list,
+#taxonomy-list {
     list-style: none;
     padding: 0;
     margin: 0;
     border-top: 1px solid var(--moss);
 }
 
-#species-list a {
+#species-list a,
+#taxonomy-list a {
     display: grid;
     grid-template-columns: minmax(0, 1fr) auto;
     align-items: baseline;
@@ -360,7 +364,9 @@ h1 {
 }
 
 #species-list a:hover,
-#species-list a:focus-visible {
+#species-list a:focus-visible,
+#taxonomy-list a:hover,
+#taxonomy-list a:focus-visible {
     color: var(--oak);
 }
 
@@ -727,6 +733,46 @@ h1 {
     text-underline-offset: 0.15em;
 }
 
+.breadcrumb {
+    max-width: 42rem;
+    margin: -1.25rem 0 1.75rem;
+    padding: 0;
+    list-style: none;
+    font-size: 0.85rem;
+    color: var(--moss);
+}
+
+.breadcrumb li {
+    display: inline;
+}
+
+.breadcrumb li + li::before {
+    content: "›";
+    margin: 0 0.4rem;
+}
+
+.breadcrumb a {
+    color: var(--oak);
+    text-decoration: none;
+    border-bottom: 1px solid color-mix(in srgb, var(--moss) 40%, transparent);
+}
+
+.breadcrumb a:hover,
+.breadcrumb a:focus-visible {
+    color: var(--oak);
+    border-bottom-color: currentColor;
+}
+
+.group-species {
+    max-width: 42rem;
+}
+
+@media (max-width: 720px) {
+    .breadcrumb {
+        margin-top: -0.75rem;
+    }
+}
+
 .topic-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
@@ -767,10 +813,6 @@ h1 {
     border-top: 0;
 }
 
-.topic-list-systems {
-    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-}
-
 .topic-card-featured {
     background: color-mix(in srgb, var(--oak) 9%, transparent);
     border-style: solid;
@@ -795,6 +837,76 @@ h1 {
     font-size: 0.95rem;
     line-height: 1.5;
     color: var(--moss);
+}
+
+.system-pair {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    border: 1px dashed var(--bark);
+}
+
+.topic-group-title + .system-pair {
+    margin-top: 0.75rem;
+}
+
+.system-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.5rem 1.75rem 1.35rem;
+    background: color-mix(in srgb, var(--oak) 5%, transparent);
+    text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.system-card + .system-card {
+    border-left: 1px dashed var(--bark);
+}
+
+.system-card:hover,
+.system-card:focus-visible {
+    background: color-mix(in srgb, var(--oak) 12%, transparent);
+}
+
+.system-card:focus-visible {
+    outline-offset: -4px;
+}
+
+.system-title {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    line-height: 1.2;
+    color: var(--oak);
+}
+
+.system-description {
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: var(--moss);
+}
+
+.system-action {
+    margin-top: auto;
+    padding-top: 0.75rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--bark);
+}
+
+.system-card:hover .system-action,
+.system-card:focus-visible .system-action {
+    color: var(--oak);
+}
+
+.system-action span {
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.system-card:hover .system-action span,
+.system-card:focus-visible .system-action span {
+    transform: translateX(0.25rem);
 }
 
 .reference-nav {
@@ -980,6 +1092,15 @@ h1 {
         gap: 2rem;
     }
 
+    .system-pair {
+        grid-template-columns: 1fr;
+    }
+
+    .system-card + .system-card {
+        border-left: 0;
+        border-top: 1px dashed var(--bark);
+    }
+
     .reference-sheet .status-box {
         position: static;
         max-height: none;
@@ -1035,17 +1156,21 @@ h1 {
         order: 3;
     }
 
-    #species-list a {
+@media (max-width: 720px) {
+
+    .species-origin {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    #species-list a,
+    #taxonomy-list a {
         grid-template-columns: 1fr;
         gap: 0.35rem;
     }
 
-    #species-list .latin {
-        text-align: left;
-    }
-
-    .species-origin {
-        align-items: flex-start;
+    #species-list .latin,
+    #taxonomy-list .latin {
         text-align: left;
     }
 }

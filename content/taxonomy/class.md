@@ -6,6 +6,7 @@ weight = 50
 
 [extra]
 group = "rank"
+rank = "class"
 verified_by = "AI"
 +++
 

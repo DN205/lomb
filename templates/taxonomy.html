@@ -19,33 +19,104 @@
         </div>
 
         {% if section.pages %}
-        <h2 class="topic-group-title">Rendszerek</h2>
-        <nav class="topic-list topic-list-systems" aria-label="Rendszertani rendszerek">
-            {% for topic in section.pages %}
-            {% if topic.extra.group == "system" %}
-            <a class="topic-card topic-card-featured" href="{{ topic.permalink | safe }}">
-                <span class="topic-title">{{ topic.title }}</span>
-                {% if topic.description %}
-                <span class="topic-description">{{ topic.description }}</span>
-                {% endif %}
-            </a>
-            {% endif %}
-            {% endfor %}
-        </nav>
+        {% set groupsSection = get_section(path="taxonomy/groups/_index.md") %}
+        {% set rankLabels = { "kingdom": "Ország", "division": "Törzs", "class": "Osztály", "order": "Rend", "family": "Család", "genus": "Nemzetség", "species": "Faj" } %}
 
-        <h2 class="topic-group-title">Rendszertani rangok</h2>
-        <nav class="topic-list" aria-label="Rendszertani rangok">
-            {% for topic in section.pages %}
-            {% if topic.extra.group == "rank" %}
-            <a class="topic-card" href="{{ topic.permalink | safe }}">
-                <span class="topic-title">{{ topic.title }}</span>
-                {% if topic.description %}
-                <span class="topic-description">{{ topic.description }}</span>
+        <section class="system-panel" aria-labelledby="systems-title">
+            <h2 class="topic-group-title" id="systems-title">Rendszerek</h2>
+            <nav class="system-pair" aria-label="Rendszertani rendszerek">
+                {% for topic in section.pages %}
+                {% if topic.extra.group == "system" %}
+                <a class="system-card" href="{{ topic.permalink | safe }}">
+                    <span class="system-title">{{ topic.title }}</span>
+                    {% if topic.description %}
+                    <span class="system-description">{{ topic.description }}</span>
+                    {% endif %}
+                    <span class="system-action">Megnyitás <span aria-hidden="true">→</span></span>
+                </a>
                 {% endif %}
-            </a>
-            {% endif %}
+                {% endfor %}
+            </nav>
+        </section>
+
+        <h2 class="topic-group-title" id="kereses">Keresés a rendszertanban</h2>
+        <div class="filter-row taxonomy-catalogue">
+            <label class="filter-label" for="taxonomy-filter">Keresés a rangok és csoportok között</label>
+            <div class="filter-search">
+                <input
+                    id="taxonomy-filter"
+                    type="search"
+                    placeholder="Rang, csoport vagy latin név…"
+                    autocomplete="off"
+                    spellcheck="false"
+                    aria-controls="taxonomy-list"
+                />
+                <div class="filter-help">
+                    <button
+                        class="filter-help-button"
+                        type="button"
+                        aria-label="Keresési útmutató"
+                        aria-describedby="taxonomy-guide"
+                    >i</button>
+                    <div class="filter-help-panel" id="taxonomy-guide" role="tooltip">
+                        <p class="filter-help-title">Keresési útmutató</p>
+                        <ul>
+                            <li>Kereshetsz magyar vagy latin névvel, illetve névrészlettel.</li>
+                            <li>Szűrhetsz rangra is, például: család, nemzetség.</li>
+                            <li>Az ékezetek és a kis- és nagybetűk nem számítanak.</li>
+                            <li>Több szót is beírhatsz: mindegyiknek szerepelnie kell.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="filter-limits" role="group" aria-label="Megjelenített találatok száma">
+                <span class="filter-limits-label">Megjelenítés</span>
+                <button type="button" data-taxonomy-limit="10" aria-pressed="false">10</button>
+                <button type="button" data-taxonomy-limit="25" aria-pressed="false">25</button>
+                <button type="button" data-taxonomy-limit="50" aria-pressed="false">50</button>
+                <button type="button" data-taxonomy-limit="all" aria-pressed="true">Mind</button>
+            </div>
+        </div>
+
+        <p class="result-count" id="taxonomy-count" aria-live="polite">Összesen {{ section.pages | length + groupsSection.pages | length }} rendszertani oldal</p>
+
+        <ul id="taxonomy-list">
+            {% for topic in section.pages %}
+            {% set rk = topic.extra.rank | default(value="") %}
+            <li data-search="{{ topic.title }} {{ topic.extra.latin | default(value='') }} {% if rk %}{{ rankLabels[rk] | default(value='') }}{% endif %} {{ topic.description | default(value='') }}">
+                <a href="{{ topic.permalink | safe }}">
+                    <span class="species-primary">
+                        <span class="species-name">{{ topic.title }}</span>
+                        {% if topic.extra.latin %}
+                        <span class="species-names"><span class="latin">{{ topic.extra.latin }}</span></span>
+                        {% endif %}
+                    </span>
+                    <span class="species-origin">
+                        <span class="species-origin-label">{% if rk %}Rang{% else %}Rendszer{% endif %}</span>
+                        <span class="species-origin-value">{% if rk %}{{ rankLabels[rk] | default(value='') }}{% else %}Linnéi és kladisztikus{% endif %}</span>
+                    </span>
+                </a>
+            </li>
             {% endfor %}
-        </nav>
+            {% for group in groupsSection.pages %}
+            <li data-search="{{ group.title }} {{ group.extra.latin | default(value='') }} {{ rankLabels[group.extra.rank] | default(value='') }} {{ group.description | default(value='') }}">
+                <a href="{{ group.permalink | safe }}">
+                    <span class="species-primary">
+                        <span class="species-name">{{ group.title }}</span>
+                        {% if group.extra.latin %}
+                        <span class="species-names"><span class="latin">{{ group.extra.latin }}</span></span>
+                        {% endif %}
+                    </span>
+                    <span class="species-origin">
+                        <span class="species-origin-label">Rangja</span>
+                        <span class="species-origin-value">{{ rankLabels[group.extra.rank] | default(value='') }}</span>
+                    </span>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+
+        <p class="empty-state" id="taxonomy-no-results" hidden>Nincs a keresésnek megfelelő rendszertani oldal.</p>
         {% endif %}
     </article>
 

@@ -13,7 +13,7 @@ verified_by = "AI"
 
 A Linnéi rendszertan Carl von Linné 18. századi munkásságán alapuló, rangokra épülő osztályozás. A növényeket a legtágabb kategóriától a legszűkebbig egymásba ágyazott rangokba sorolja, így minden faj helyét a rangok láncolatán keresztül határozzuk meg.
 
-A legismertebb rangok a növényeknél: ország, törzs, osztály, rend, család, nemzetség és faj. Minden fajt e hét szinten helyezzük el, a legtágabbtól a legszűkebbig:
+A legismertebb rangok a növényeknél: ország, törzs, osztály, rend, család, nemzetség és faj. Minden fajt e hét szinten helyezzük el, a legtágabbtól a legszűkebbig — ez az oldal a kapu a rangokhoz: minden magyarázó rangoldal innen válik elérhetővé, ahogyan a rangok alatti konkrét csoportok is.
 
 - **[Ország](@/taxonomy/kingdom.md)**
 - **[Törzs](@/taxonomy/phylum.md)**

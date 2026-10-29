@@ -6,6 +6,7 @@ weight = 70
 
 [extra]
 group = "rank"
+rank = "family"
 verified_by = "AI"
 +++
 

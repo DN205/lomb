@@ -6,6 +6,7 @@ weight = 30
 
 [extra]
 group = "rank"
+rank = "kingdom"
 verified_by = "AI"
 +++
 
